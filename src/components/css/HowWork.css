@@ -1,0 +1,49 @@
+.how-work-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-work-info{
+  height: 100%;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.how-work-info h3{
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.how-work-info ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.how-work-info li{
+  height: 35px;
+  width: 95%;
+  margin: 15px 0;
+  padding: 0 0 0 15px;
+  font-size: 18px;
+  text-align: justify;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.how-work-icon{
+  height: auto;
+  width: 5%;
+  margin: 15px 0;
+  padding: 5px;
+  border-radius: 50%;
+
+  background: rgb(225,247,153);
+  background: linear-gradient(90deg, rgba(225,247,153,1) 0%, rgba(148,255,239,1) 100%);
+}

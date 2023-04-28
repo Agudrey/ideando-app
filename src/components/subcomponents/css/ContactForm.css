@@ -1,0 +1,70 @@
+:root{
+  --purple: #252262;
+  --green: #B8EA14;
+}
+
+.contact-form{
+  height: 66vh;
+  width: 45vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-form{
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0;
+  border: none;
+}
+
+.name, .comment{
+  width: 100%;
+  font-size: 15px;
+}
+
+.email-input, .phone-input, .date-input, .persons-input{
+  width: 50%;
+  font-size: 15px;
+}
+
+.input-form input{
+  height: 30px;
+  width: auto;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+
+.email-input input, .date-input input{
+  width: 90%;
+}
+
+.symbol-required::after{
+  content: "*";
+  color: #ff0000;
+}
+
+.button-container{
+  height: 12%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button{
+  height: 100%;
+  width: 25%;
+  border-radius: 10px;
+  background-color: var(--purple);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 20px;
+}
+
+.button-container button:hover{
+  transform: scale(85%);
+  color: var(--green);
+}

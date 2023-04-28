@@ -1,0 +1,30 @@
+:root{
+  --purple: #252262;
+  --green: #B8EA14;
+}
+
+.work-team-container{
+  background-color: var(--purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-team-info{
+  height: auto;
+  width: 70vw;
+  color: white;
+}
+
+.work-team-info h3{
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.work-team-info p{
+  text-align: justify;
+  font-size: 18px;
+}
