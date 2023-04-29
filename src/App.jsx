@@ -7,10 +7,11 @@ import Events from './components/Events';
 import Services from './components/Services';
 import WorkTeam from './components/WorkTeam';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Navbar />
       <Banner />
       <UsInfo />
@@ -19,7 +20,8 @@ function App() {
       <Services />
       <WorkTeam />
       <Contact />
-    </div>
+      <Footer />
+    </main>
   );
 }
 

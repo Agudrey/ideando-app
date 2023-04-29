@@ -1,5 +1,6 @@
 import "./css/UsInfo.css"
 import UsInfoCard from "./subcomponents/UsInfoCard"
+import UsInfoExperience from "./subcomponents/UsInfoExperience"
 
 
 function UsInfo() {
@@ -10,7 +11,10 @@ function UsInfo() {
         <p className="info-description">Ideando Eventos y Marketing es una Empresa que cuenta con la experiencia de más de 7 años en la organización integral de diseño, logística y producción de eventos, por ello te ofrecemos los mejores organizadores quienes son los encargados de cada detalle; Apostamos por el asesoramiento, la atención, la creatividad, el trabajo en equipo y asumimos la responsabilidad de cada Evento. <br /> <br />Tenemos todo lo que necesita tu evento para ser un éxito:
         </p>
       </article>
+
       <UsInfoCard />
+
+      <UsInfoExperience />
     </section>
   )
 }

@@ -3,7 +3,7 @@
 }
 
 .info-container{
-  height: 580px;
+  height: auto;
   width: 100%;
   padding-top: 60px;
   display: flex;
@@ -16,6 +16,7 @@
 .info{
   height: 200px;
   width: 70vw;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

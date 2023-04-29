@@ -10,7 +10,7 @@ function Services() {
 
       <article className="services-info">
         <h3>Servicios</h3>
-        <p>En Ideando Eventos y Marketing ponemos a su disposición todos nuestros servicios que son imprescindibles para que su evento se desarrolle sin ningún problema. No dejes nada al azar sea el evento que sea que quieras organizar para tu empresa. Tú sólo tienes que imaginar tu evento ideal, nosotros lo haremos realidad con nuestros servicios.</p>
+        <p>En Ideando Eventos y Marketing ponemos a su disposición todos nuestros servicios que son imprescindibles para que su evento se desarrolle sin ningún problema. Nos encargamos de todo lo necesario para que tu evento sea único y perfecto. Tú sólo tienes que imaginar tu evento ideal y nosotros lo haremos realidad con nuestros servicios.</p>
       </article>
 
       <ServicesSplide />

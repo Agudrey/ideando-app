@@ -5,8 +5,12 @@ function WorkTeam() {
     <section className="work-team-container">
       <article className="work-team-info">
         <h3>Equipo</h3>
-        <p>Somos un equipo de trabajo apasionado a su profesión y con vocación de progresar y aprender   cada día en su trabajo, que se comprometen con cada evento como si fuera el más importante de su vida. <br /><br /> Uno de nuestros objetivos dentro de la empresa es tener un Excelente ambiente laboral. Sabemos que lo más importante de la empresa son nuestros colaboradores que hacen posible que cada evento se lleve a cabo con éxito, por eso nos preocupamos por cada integrante para que siempre se sientan a gusto dentro de Ideando Eventos y Marketing.
-        </p>
+
+        <p>Somos un equipo de trabajo apasionado a su profesión y con vocación de servicio, que están  comprometidos con cada evento como si fuera el más importante,  apropiándose de el  para que sea un éxito y recordado por todos los asistentes.</p>
+
+        <p>Los mejores equipos de trabajo NO son aquellos que reúnen más talento individual o cuyos miembros tienen un mejor currículum. En Ideando Eventos y Marketing creemos que SON aquellos equipos que estructuran mejor su trabajo, que retroalimentan la motivación, que ayudan a  su compañero por un objetivo común y que dentro de la empresa permitamos a nuestros colaboradores potenciar sus fortalezas y trabajar en sus debilidades para así mejorar la productividad.</p>
+
+        <p>Por eso nuestros objetivos dentro de Ideando Eventos y Marketing  son:</p>
       </article>
     </section>
   )

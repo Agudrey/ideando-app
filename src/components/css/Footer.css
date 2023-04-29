@@ -1,0 +1,35 @@
+.footer-container{
+  height: auto;
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #B8EA14;
+}
+
+.footer-container p{
+  height: auto;
+  width: 15%;
+  font-style: italic;
+  color: rgb(51, 51, 51);
+}
+
+.footer-container img{
+  height: 70px;
+  width: auto;
+}
+
+.footer-contact-container{
+  height: 100%;
+  width: 15%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-contact-container a{
+  text-decoration: none;
+  color: black;
+}
