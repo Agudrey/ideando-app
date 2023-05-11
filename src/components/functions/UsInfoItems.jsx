@@ -14,8 +14,8 @@ export const UsInfoItems = [
   },
   {
     id: 2,
-    name: 'Pasión',
-    icon: FaHandHoldingHeart
+    name: 'Calidad humana al servicio de la organización de eventos',
+    icon: FaPeopleCarry
   },
   {
     id: 3,
@@ -24,8 +24,8 @@ export const UsInfoItems = [
   },
   {
     id: 4,
-    name: 'Confianza',
-    icon: MdOutlineHandshake
+    name: 'Compromiso con cada cliente',
+    icon: FaHandshake
   },
   {
     id: 5,
@@ -34,28 +34,28 @@ export const UsInfoItems = [
   },
   {
     id: 6,
-    name: 'Experiencia',
-    icon: BsPersonCheckFill
-  },
-  {
-    id: 7,
     name: 'Amantes al detalle',
     icon: MdFolderSpecial
   },
   {
-    id: 8,
-    name: 'Compromiso con cada cliente',
-    icon: FaHandshake
+    id: 7,
+    name: 'Experiencia',
+    icon: BsPersonCheckFill
   },
   {
-    id: 9,
+    id: 8,
     name: 'Orientación a Resultados',
     icon: BsFillClipboard2DataFill
   },
   {
+    id: 9,
+    name: 'Confianza',
+    icon: MdOutlineHandshake
+  },
+  {
     id: 10,
-    name: 'Calidad humana al servicio de la organización de eventos',
-    icon: FaPeopleCarry
+    name: 'Pasión',
+    icon: FaHandHoldingHeart
   },
 ]
 

@@ -3,6 +3,8 @@ import "./css/WorkTeam.css"
 function WorkTeam() {
   return (
     <section className="work-team-container" id="workTeam">
+      <div className="work-team-background-color"></div>
+
       <article className="work-team-info">
         <h3>Equipo</h3>
 
@@ -11,8 +13,7 @@ function WorkTeam() {
         <p>En Ideando Eventos y Marketing creemos que SON aquellos equipos que estructuran mejor su trabajo, que retroalimentan la motivación, que ayudan a  su compañero por un objetivo común y que dentro de la empresa permitamos a nuestros colaboradores potenciar sus fortalezas y trabajar en sus debilidades para así mejorar la productividad.</p>
 
         <div className="frase">
-          <p>"Los mejores equipos de trabajo NO son aquellos que reúnen más talento individual o cuyos miembros tienen un mejor currículum."</p>
-
+          <p>"Los mejores equipos de trabajo NO son aquellos que reúnen más talento individual o cuyos miembros tienen un mejor currículum."</p> 
         </div>
         
       </article>

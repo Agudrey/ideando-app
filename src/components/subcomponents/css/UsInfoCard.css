@@ -80,7 +80,7 @@
   width: 100%;
 }
 
-.card:hover .card-background{ 
+/* .card:hover .card-background{ 
   transform: scale(1.15) translateZ(0);
   background-size: 260px;
 }
@@ -93,4 +93,4 @@
 .card-container:hover > .card:not(:hover) .card-background,
 .card-container:hover > .card:not(:hover) .card-category{
   filter: brightness(.5) saturate(0) contrast(1.2) blur(20px);
-}
+} */
