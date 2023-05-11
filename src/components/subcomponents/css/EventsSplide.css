@@ -1,5 +1,5 @@
 .events-splide-container{
-  height: 320px;
+  height: 300px;
   width: 80vw;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .event-card{
-  height: 320px;
+  height: 300px;
   width: 200px;
   padding: 20px;
   background-color: white;
@@ -22,7 +22,7 @@
 }
 
 .event-image{
-  height: 75%;
+  height: auto;
   width: 100%;
   border-radius: 10px;
 }

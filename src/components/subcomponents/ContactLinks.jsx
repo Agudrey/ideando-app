@@ -5,10 +5,10 @@ import { BsLinkedin } from 'react-icons/bs';
 
 function ContactLinks() {
   const tiktokLink = "https://www.tiktok.com/es/"
-  const facebookLink = "https://www.facebook.com/"
-  const instagramLink = "https://www.instagram.com/"
+  const facebookLink = "https://www.facebook.com/profile.php?id=100068967685536"
+  const instagramLink = "https://instagram.com/ideandoeventosymarketing?igshid=ZDdkNTZiNTM="
   const youtubeLink = "https://www.youtube.com/@ideandoeventosymarketing6475"
-  const linkedinLink = "https://www.linkedin.com/feed//"
+  const linkedinLink = "https://www.linkedin.com/company/ideando-eventos-y-marketing/"
 
 
   return (

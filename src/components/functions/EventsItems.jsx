@@ -3,7 +3,7 @@ import evento_integracion from "../Images/images-events/Eventos-de-Integracion.w
 import evento_beneficencia from "../Images/images-events/Eventos-de-Beneficiencia.webp"
 import evento_cultural from "../Images/images-events/Eventos-culturales-y-Recreativos.webp"
 import evento_hibrido from "../Images/images-events/Eventos-Hibridos.webp"
-import evento_fin_de_año from "../Images/images-events/Eventos-Fin-de-año.webp"
+import evento_fin_de_año from "../Images/images-events/Eventos-fin-de-año.webp"
 import evento_desayunos from "../Images/images-events/Desayunos-alumuerzos-Cenas.webp"
 import evento_emprendimiento from "../Images/images-events/Ferias-de-emprendimiento.webp"
 import evento_lanzamiento_producto from "../Images/images-events/Lanzamiento-de-Producto.webp"

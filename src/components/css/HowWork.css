@@ -1,8 +1,11 @@
 .how-work-container{
+  padding-top: 60px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .how-work-info{
@@ -10,6 +13,7 @@
   width: 70vw;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .how-work-info h3{
@@ -20,13 +24,15 @@
   margin-bottom: 20px;
 }
 
-.how-work-info ul{
+.how-work-info div{
+  height: auto;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .how-work-info li{
-  height: 35px;
+  height: auto;
   width: 95%;
   margin: 15px 0;
   padding: 0 0 0 15px;
@@ -38,7 +44,7 @@
 }
 
 .how-work-icon{
-  height: auto;
+  height: 47px;
   width: 5%;
   margin: 15px 0;
   padding: 5px;
@@ -46,4 +52,78 @@
 
   background: rgb(225,247,153);
   background: linear-gradient(90deg, rgba(225,247,153,1) 0%, rgba(148,255,239,1) 100%);
+}
+
+.how-work-description-container{
+  height: auto;
+  width: 70vw;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-work-description{
+  height: auto;
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.how-work-description h4{
+  text-align: center;
+  font-size: 20px;
+}
+
+.how-work-description p{
+  text-align: justify;
+  font-size: 18px;
+}
+
+.how-work-cards-container{
+  height: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.how-work-cards{
+  height: 200px;
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.how-work-cards h5{
+  font-size: 15px;
+  text-align: center;
+}
+
+.how-work-cards p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.background-logo{
+  height: 500px;
+  width: auto;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.up-logo{
+  top: -70px;
+  right: -70px;
+}
+
+.down-logo{
+  bottom: 0;
+  left: -70px;
 }

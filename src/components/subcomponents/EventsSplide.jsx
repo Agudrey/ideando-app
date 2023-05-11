@@ -4,6 +4,7 @@ import '@splidejs/react-splide/css';
 import { EventsItems } from "../functions/EventsItems"
 import { useState } from "react"
 import ModalEvent from "./ModalEvent";
+import { AutoScroll } from '@splidejs/splide-extension-auto-scroll'
 
 
 function EventsSplide() {
@@ -24,15 +25,29 @@ function EventsSplide() {
     <div className="events-splide-container">
       <Splide
         options={ {
-          type   : 'loop',
-          drag   : 'free',
-          focus  : 'center',
-          gap   : '1rem',
-          pagination: false,
+          type: 'loop',
+          rewind:false, 
+          autoplay: true,
+          perMove: 12,
           perPage: 3, 
-          autoplay: true, 
-        } }
-        aria-label="My Favorite Images"
+          gap: '1rem',
+          arrows: false,
+          pagination: false,
+          autoScroll: {
+              pauseOnHover: true,
+              pauseOnFocus: false,
+              speed: 2
+          },
+
+          // type   : 'loop',
+          // drag   : 'free',
+          // focus  : 'center',
+          // gap   : '1rem',
+          // pagination: false,
+          // perPage: 3, 
+          // autoplay: true, 
+        }}
+        extensions={{ AutoScroll }}
       >
 
         {EventsItems.map((item) => (

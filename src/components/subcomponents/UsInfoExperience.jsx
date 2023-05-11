@@ -16,9 +16,6 @@ function UsInfoExperience() {
 
   return (
     <section className="experience-container">
-      
-      <h4>Experiencia</h4>
-
       <div className="info-experience-container">
         <div className="years-experience-container">
           <div>

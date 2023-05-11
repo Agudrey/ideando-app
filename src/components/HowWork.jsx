@@ -5,33 +5,69 @@ import { BiParty } from 'react-icons/bi';
 import { HiOutlineSpeakerphone, HiOutlineBriefcase } from 'react-icons/hi';
 import waveUp from "./Images/interface-images/waveUpP.svg"
 import waveDown from "./Images/interface-images/waveDownG.svg"
+import logo from "./Images/interface-images/circle-logo.webp"
 
 
 function HowWork() {
   return (
     <section className="how-work-container" id="howWork">
-      <img src={waveUp} alt="wave"/>
+      {/* <img src={waveUp} alt="wave"/> */}
+      <img src={logo} alt="logo" className="background-logo up-logo"/>
 
       <article className="how-work-info">
         <h3>Cómo Trabajamos</h3>
+
         <ul>
-          <HiOutlineBriefcase className="how-work-icon"/>
-          <li>Ponemos a Disposición del cliente el equipo de trabajo para su Evento.</li>
+          <div>
+            <HiOutlineBriefcase className="how-work-icon"/>
+            <li>Ponemos a Disposición del cliente el equipo de trabajo para su Evento.</li>
+          </div>
 
-          <HiOutlineSpeakerphone className="how-work-icon"/>
-          <li>Damos prioridad a la escucha, a los deseos del cliente para su evento y nosotros lo complementamos con nuevas ideas de acuerdo a sus necesidades y gustos.</li>
+          <div>
+            <HiOutlineSpeakerphone className="how-work-icon"/>
+            <li>Damos prioridad a la escucha y a las ideas del cliente para su evento.</li>
+          </div>
 
-          <MdOutlineWorkspacePremium className="how-work-icon"/>
-          <li>Ofrecemos servicios de calidad para su Evento.</li>
+          <div>
+            <MdOutlineWorkspacePremium className="how-work-icon"/>
+            <li>Ofrecemos servicios de calidad para su Evento.</li>
+          </div>
 
-          <FaRegMoneyBillAlt className="how-work-icon"/>
-          <li>Tenemos en cuenta que cada evento es único y para ello requiere de un presupuesto personalizado y conciso.</li>
+          <div>
+            <FaRegMoneyBillAlt className="how-work-icon"/>
+            <li>Tenemos en cuenta que cada evento es único y para ello requiere de un presupuesto personalizado y conciso.</li>
+          </div>
 
-          <BiParty className="how-work-icon"/>
-          <li>Es importante para nosotros estar al detalle con el cliente, por eso gestionamos todas las fases del evento: Pre-Evento, Evento y Post-Evento.</li>
+          <div>
+            <BiParty className="how-work-icon"/>
+            <li>Es importante para nosotros estar al detalle con el cliente, por eso gestionamos todas las fases del evento: <br /> - Pre-Evento <br /> - Evento <br /> - Post-Evento.</li>
+          </div>
         </ul>
       </article>
 
+      <div className="how-work-description-container">
+          <article className="how-work-description">
+            <h4>NOS PREOCUPAMOS POR TI</h4>
+            <p>Sabemos que a la hora de organizar un evento, hay una serie de elementos que son imprescindibles para asegurar tu éxito. Por eso es importante tener claro:</p>
+          </article>
+
+          <div className="how-work-cards-container">
+            <div className="how-work-cards">
+              <h5>Objetivo definido</h5>
+              <p>Nos encargamos de planificar, gestionar y controlar para que el evento alcance su propósito.</p>
+            </div>
+            <div className="how-work-cards">
+              <h5>Presupuesto controlado</h5>
+              <p>Nuestra gran oferta de servicios nos permite ajustarnos al presupuesto designado por tu empresa.</p>
+            </div>
+            <div className="how-work-cards">
+              <h5>Espacio adecuado</h5>
+              <p>Cada evento es único y por ello es importante encontrar el lugar apropiado para tu evento.</p>
+            </div>
+          </div>
+        </div>
+
+      <img src={logo} alt="logo" className="background-logo down-logo"/>
       <img src={waveDown} alt="wave" id="events"/>
     </section>
   )

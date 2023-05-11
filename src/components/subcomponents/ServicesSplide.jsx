@@ -13,7 +13,7 @@ function ServicesSplide() {
           rewind:false, 
           autoplay: true,
           perMove: 11,
-          perPage: 5, 
+          perPage: 4, 
           gap: '4rem',
           arrows: false,
           pagination: false,
@@ -32,8 +32,8 @@ function ServicesSplide() {
               ? "services-card card-green"
               : "services-card card-purple"}
           >
-            <span></span>
-            <span></span>
+            {/* <span></span>
+            <span></span> */}
             <span></span>
             <div className="content">
               <item.icon className="services-icon" />

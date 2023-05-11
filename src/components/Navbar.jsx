@@ -1,12 +1,10 @@
 import "./css/Navbar.css"
 import { useState } from "react";
 import { BsWhatsapp } from 'react-icons/bs';
-import logo1 from "./Images/interface-images/logo1.svg"
-import logo2 from "./Images/interface-images/logo2.svg"
+import logo from "./Images/interface-images/logo.webp"
 
 
 function Navbar() {
-  const [url, setUrl] = useState(logo1)
   const [Menu, setMenu] = useState(false);
 
   const clickScroll = (name) => {
@@ -21,12 +19,6 @@ function Navbar() {
   };
 
 
-  window.addEventListener("scroll", function () {
-    let nav = document.querySelector("nav");
-    nav.classList.toggle("sticky", window.scrollY > 0);
-    (window.scrollY > 0) ? setUrl(logo2) : setUrl(logo1)
-  });
-
   return (
     <nav>
       <ul>
@@ -35,7 +27,7 @@ function Navbar() {
         <li onClick={() => clickScroll("events")}>Eventos</li>
       </ul>
 
-      <img src={url} alt="logo" className="logo" />
+      <img src={logo} alt="logo" className="logo" />
 
       <ul>
         <li onClick={() => clickScroll("services")}>Servicios</li>

@@ -3,7 +3,7 @@ import { FaHandHoldingHeart, FaHandshake, FaPeopleCarry } from 'react-icons/fa';
 import { SiHandshake } from 'react-icons/si';
 import { HiOutlineLightBulb } from 'react-icons/hi';
 import { BsPersonCheckFill, BsFillClipboard2DataFill } from 'react-icons/bs';
-import { MdFolderSpecial } from 'react-icons/md';
+import { MdFolderSpecial, MdOutlineHandshake } from 'react-icons/md';
 
 
 export const UsInfoItems = [
@@ -25,7 +25,7 @@ export const UsInfoItems = [
   {
     id: 4,
     name: 'Confianza',
-    icon: SiHandshake
+    icon: MdOutlineHandshake
   },
   {
     id: 5,
