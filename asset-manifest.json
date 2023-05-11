@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/ideando-app/static/css/main.9e06d0ee.css",
-    "main.js": "/ideando-app/static/js/main.e23564e2.js",
-    "static/media/Eventos-culturales-y-Recreativos.webp": "/ideando-app/static/media/Eventos-culturales-y-Recreativos.90104c623f7d86b0662c.webp",
-    "static/media/Eventos-de-Integracion.webp": "/ideando-app/static/media/Eventos-de-Integracion.3652490f27b8b8adfffe.webp",
-    "static/media/Eventos-Fin-de-año.webp": "/ideando-app/static/media/Eventos-Fin-de-año.b827aaa09d50ae00c900.webp",
-    "static/media/Desayunos-alumuerzos-Cenas.webp": "/ideando-app/static/media/Desayunos-alumuerzos-Cenas.ad64601dc023e111158d.webp",
-    "static/media/Seminarios-Congresos-simposios.webp": "/ideando-app/static/media/Seminarios-Congresos-simposios.01adad975e16ae1b8969.webp",
-    "static/media/Lanzamiento-de-Producto.webp": "/ideando-app/static/media/Lanzamiento-de-Producto.25c1ecd48f4129d3f1c0.webp",
-    "static/media/Aniversarios-de-Empresas.webp": "/ideando-app/static/media/Aniversarios-de-Empresas.623524c4ceef6b44046c.webp",
-    "static/media/Eventos-Experienciales.webp": "/ideando-app/static/media/Eventos-Experienciales.b179085f5dc9a4fc2b8b.webp",
-    "static/media/Eventos-de-Beneficiencia.webp": "/ideando-app/static/media/Eventos-de-Beneficiencia.056a60b3e5396003cf49.webp",
-    "static/media/Eventos-Hibridos.webp": "/ideando-app/static/media/Eventos-Hibridos.d0c97a238daab0f33386.webp",
-    "static/media/Coctel.webp": "/ideando-app/static/media/Coctel.b8a551794f9bfcea12f3.webp",
-    "static/media/Ferias-de-emprendimiento.webp": "/ideando-app/static/media/Ferias-de-emprendimiento.e66c0cb19663fc0390fd.webp",
-    "static/media/logo1.svg": "/ideando-app/static/media/logo1.cf44e6d6e077839d880c525c050797d5.svg",
-    "static/media/logo2.svg": "/ideando-app/static/media/logo2.1e216bbd88a465c58335593a332c6566.svg",
+    "main.css": "/ideando-app/static/css/main.7a691290.css",
+    "main.js": "/ideando-app/static/js/main.90ef8213.js",
+    "static/media/Eventos-de-Integracion.webp": "/ideando-app/static/media/Eventos-de-Integracion.64a6f37220a862486ff2.webp",
+    "static/media/Eventos-culturales-y-Recreativos.webp": "/ideando-app/static/media/Eventos-culturales-y-Recreativos.0d652ed0924469861e35.webp",
+    "static/media/Eventos-Experienciales.webp": "/ideando-app/static/media/Eventos-Experienciales.d835c1246249d1322ed4.webp",
+    "static/media/Aniversarios-de-Empresas.webp": "/ideando-app/static/media/Aniversarios-de-Empresas.d73a5860e7f334bc624b.webp",
+    "static/media/Lanzamiento-de-Producto.webp": "/ideando-app/static/media/Lanzamiento-de-Producto.8091417c97d7c104e511.webp",
+    "static/media/Seminarios-Congresos-simposios.webp": "/ideando-app/static/media/Seminarios-Congresos-simposios.544c0661e7911bb16cfc.webp",
+    "static/media/Eventos-fin-de-año.webp": "/ideando-app/static/media/Eventos-fin-de-año.10e096b2fed42bcac44c.webp",
+    "static/media/Eventos-Hibridos.webp": "/ideando-app/static/media/Eventos-Hibridos.e3dfc40bba68a16fd3c3.webp",
+    "static/media/Desayunos-alumuerzos-Cenas.webp": "/ideando-app/static/media/Desayunos-alumuerzos-Cenas.41eb7ac7dabf906e2499.webp",
+    "static/media/Eventos-de-Beneficiencia.webp": "/ideando-app/static/media/Eventos-de-Beneficiencia.f5c5d17273ab7c3b705f.webp",
+    "static/media/Coctel.webp": "/ideando-app/static/media/Coctel.eb522f3c2fe56e421b12.webp",
+    "static/media/Ferias-de-emprendimiento.webp": "/ideando-app/static/media/Ferias-de-emprendimiento.20ab3d5c95e4ac7905f6.webp",
+    "static/media/green-logo.webp": "/ideando-app/static/media/green-logo.3e4db5b9354d9adfb2fa.webp",
+    "static/media/logo.webp": "/ideando-app/static/media/logo.161f57ea4f007f99554f.webp",
+    "static/media/circle-logo.webp": "/ideando-app/static/media/circle-logo.ad7940e3125d5a0247c7.webp",
     "index.html": "/ideando-app/index.html",
     "static/media/waveDownG.svg": "/ideando-app/static/media/waveDownG.f0934fe169b0ea78ad6c2cf15ff68d73.svg",
-    "static/media/waveDownP.svg": "/ideando-app/static/media/waveDownP.1498adfad223b4fe7336973c285fcb91.svg",
     "static/media/waveUpG.svg": "/ideando-app/static/media/waveUpG.d6eb3af832e212c833bda2cc6072eec3.svg",
     "static/media/waveUpP.svg": "/ideando-app/static/media/waveUpP.638e4641ad7d5500cb25b56851ad218c.svg",
-    "main.9e06d0ee.css.map": "/ideando-app/static/css/main.9e06d0ee.css.map",
-    "main.e23564e2.js.map": "/ideando-app/static/js/main.e23564e2.js.map"
+    "main.7a691290.css.map": "/ideando-app/static/css/main.7a691290.css.map",
+    "main.90ef8213.js.map": "/ideando-app/static/js/main.90ef8213.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e06d0ee.css",
-    "static/js/main.e23564e2.js"
+    "static/css/main.7a691290.css",
+    "static/js/main.90ef8213.js"
   ]
 }
