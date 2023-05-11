@@ -45,11 +45,6 @@ function HowWork() {
         </ul>
       </article>
 
-      <div className="how-work-description-container">
-          <article className="how-work-description">
-            <h4>NOS PREOCUPAMOS POR TI</h4>
-            <p>Sabemos que a la hora de organizar un evento, hay una serie de elementos que son imprescindibles para asegurar tu éxito. Por eso es importante tener claro:</p>
-          </article>
 
           <div className="how-work-cards-container">
             <div className="how-work-cards">
@@ -65,7 +60,7 @@ function HowWork() {
               <p>Cada evento es único y por ello es importante encontrar el lugar apropiado para tu evento.</p>
             </div>
           </div>
-        </div>
+
 
       <img src={logo} alt="logo" className="background-logo down-logo"/>
       <img src={waveDown} alt="wave" id="events"/>
