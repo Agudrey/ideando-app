@@ -11,10 +11,6 @@ nav{
   z-index: 10000;
 }
 
-nav.sticky{
-  background-color: white;
-}
-
 .logo{
   height: 80px;
   width: auto;
@@ -22,7 +18,7 @@ nav.sticky{
   transition: 0.6s;
 }
 
-nav ul{
+.navbar-list-desktop{
   width: 25vw;
   display: flex;
   justify-content: space-between;
@@ -31,19 +27,37 @@ nav ul{
   position: relative;
 }
 
-nav li{
+.navbar-list-desktop li, .navbar-list-mobile li{
   list-style: none;
   cursor: pointer;
   color: black;
 }
 
-nav.sticky li{
-  color: black;
-}
-
-nav li:hover{
+.navbar-list-desktop li:hover{
   color: #B8EA14;
   transition: 0.2s;
+}
+
+.navbar-list-mobile{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  position: absolute;
+  top: 60px;
+  right: 15px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.burguer-icon{
+  height: 35px;
+  width: 35px;
+  color: #252262;
 }
 
 .whatsapp-container{
@@ -55,7 +69,7 @@ nav li:hover{
   display: flex;
   align-items: center;
 }
-
+ 
 .whatsapp-text{
   height: 35px;
   width: 165px;
@@ -85,6 +99,32 @@ nav li:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* .disable{
+  display: none;
+} */
+
+@media screen and (max-width: 530px) {
+
+  nav{
+    width: 100vw;
+    padding: 0px 20px;
+    justify-content: space-between;
+  }
+
+  .navbar-list-desktop{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 529px) {
+
+  .burguer-icon{
+    display: none;
+
+  }
 }
 
 

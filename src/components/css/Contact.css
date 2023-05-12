@@ -39,4 +39,11 @@
   left: 385px;
 }
 
+@media screen and (max-width: 530px) {
+
+  .contact-logo{
+    display: none;
+  }
+}
+
 

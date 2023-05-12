@@ -5,6 +5,14 @@ import { BsFillPatchCheckFill } from 'react-icons/bs';
 
 function UsInfoExperience() {
 
+  const experiencePoints = [
+    "Servicio de alta calidad",
+    "Garantía de satisfacción del 100%",
+    "Sistema de control de calidad",
+    "Compromiso con los clientes",
+    "Equipo altamente profesional"
+  ]
+
   const clickScroll = (name) => {
     const element = document.getElementById(name);
     //si existe
@@ -26,11 +34,12 @@ function UsInfoExperience() {
           </div>
           
           <ul className="experience-points">
-            <li><BsFillPatchCheckFill className="points-icons"/> Servicio de alta calidad</li>
-            <li><BsFillPatchCheckFill className="points-icons"/> Garantía de satisfacción del 100%</li>
-            <li><BsFillPatchCheckFill className="points-icons"/> Sistema de control de calidad</li>
-            <li><BsFillPatchCheckFill className="points-icons"/> Compromiso con los clientes</li>
-            <li><BsFillPatchCheckFill className="points-icons"/> Equipo altamente profesional</li>
+            {experiencePoints.map((item) =>
+              <div>
+                <BsFillPatchCheckFill className="points-icons"/>
+                <li>{item}</li>
+              </div>
+            )}
           </ul>
         </div>
 

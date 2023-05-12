@@ -1,6 +1,7 @@
 import "./css/Navbar.css"
 import { useState } from "react";
 import { BsWhatsapp } from 'react-icons/bs';
+import { GiHamburgerMenu } from 'react-icons/gi';
 import logo from "./Images/interface-images/logo.webp"
 
 
@@ -21,7 +22,7 @@ function Navbar() {
 
   return (
     <nav>
-      <ul>
+      <ul className="navbar-list-desktop">
         <li onClick={() => clickScroll("usInfo")}>Nosotros</li>
         <li onClick={() => clickScroll("howWork")}>Cómo Trabajamos</li>
         <li onClick={() => clickScroll("events")}>Eventos</li>
@@ -29,7 +30,18 @@ function Navbar() {
 
       <img src={logo} alt="logo" className="logo" />
 
-      <ul>
+      <ul className="navbar-list-desktop">
+        <li onClick={() => clickScroll("services")}>Servicios</li>
+        <li onClick={() => clickScroll("workTeam")}>Equipo</li>
+        <li onClick={() => clickScroll("contact")}>Contacto</li>
+      </ul>
+
+      <GiHamburgerMenu className="burguer-icon" />
+
+      <ul className="navbar-list-mobile disable">
+        <li onClick={() => clickScroll("usInfo")}>Nosotros</li>
+        <li onClick={() => clickScroll("howWork")}>Cómo Trabajamos</li>
+        <li onClick={() => clickScroll("events")}>Eventos</li>
         <li onClick={() => clickScroll("services")}>Servicios</li>
         <li onClick={() => clickScroll("workTeam")}>Equipo</li>
         <li onClick={() => clickScroll("contact")}>Contacto</li>
