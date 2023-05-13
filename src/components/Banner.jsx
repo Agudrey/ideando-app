@@ -16,8 +16,19 @@ function Banner() {
   return (
     <section className='video-container'>
       <ReactPlayer 
-        className="video"
+        className="video video-desktop"
         url="https://www.youtube.com/watch?v=IPZY6rBQEZ0&ab_channel=IdeandoEventosyMarketing" 
+        playing
+        loop
+        muted
+        height={"100%"}
+        width={"100%"}
+        config ={{youtube : {playerVars : {  showinfo : 1  } }}}
+      />
+
+      <ReactPlayer 
+        className="video video-mobil"
+        url="https://youtu.be/IPZY6rBQEZ0" 
         playing
         loop
         muted

@@ -101,9 +101,9 @@ nav{
   align-items: center;
 }
 
-/* .disable{
+.disable{
   display: none;
-} */
+}
 
 @media screen and (max-width: 530px) {
 
@@ -123,7 +123,10 @@ nav{
 
   .burguer-icon{
     display: none;
+  }
 
+  .navbar-list-mobile{
+    display: none;
   }
 }
 

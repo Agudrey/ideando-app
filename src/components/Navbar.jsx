@@ -6,7 +6,11 @@ import logo from "./Images/interface-images/logo.webp"
 
 
 function Navbar() {
-  const [Menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(false);
+
+  const clickMenuBurger = () => {
+    setMenu(!menu);
+  };
 
   const clickScroll = (name) => {
     //localizamos el elemento (seccion)
@@ -36,9 +40,9 @@ function Navbar() {
         <li onClick={() => clickScroll("contact")}>Contacto</li>
       </ul>
 
-      <GiHamburgerMenu className="burguer-icon" />
+      <GiHamburgerMenu onClick={clickMenuBurger} className="burguer-icon" />
 
-      <ul className="navbar-list-mobile disable">
+      <ul className={!menu? "disable" : "navbar-list-mobile"}>
         <li onClick={() => clickScroll("usInfo")}>Nosotros</li>
         <li onClick={() => clickScroll("howWork")}>Cómo Trabajamos</li>
         <li onClick={() => clickScroll("events")}>Eventos</li>

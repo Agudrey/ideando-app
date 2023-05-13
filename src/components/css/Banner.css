@@ -32,3 +32,26 @@
   scale: 1.1;
 }
 
+
+@media screen and (max-width: 530px) {
+
+  .video-desktop{
+    display: none;
+  }
+
+  .video-mobil{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 529px) {
+
+  .video-desktop{
+    display: block;
+  }
+
+  .video-mobil{
+    display: none;
+  }
+}
+
