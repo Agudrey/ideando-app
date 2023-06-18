@@ -7,8 +7,8 @@ function Contact() {
     <section className="contact-container" id="contact">
 
       <article className="contact-info">
-        <h3>Contacto</h3>
-        <p>Solicita una asesoria presencial o video llamada y cuéntanos de tu evento y recibe una cotización personalizada de acuerdo a tus necesidades y objetivos.</p>
+        <h3>¿Quieres organizar un evento?</h3>
+        <p>Completa el siguiente formulario y nos pondremos en contacto.</p>
       </article>
 
       <ContactForm />

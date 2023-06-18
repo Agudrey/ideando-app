@@ -25,29 +25,29 @@ function EventsSplide() {
     <div className="events-splide-container">
       <Splide
         options={ {
-          type: 'loop',
-          rewind:false, 
-          autoplay: true,
-          perMove: 12,
-          perPage: 3, 
-          gap: '1rem',
-          arrows: false,
-          pagination: false,
-          autoScroll: {
-              pauseOnHover: true,
-              pauseOnFocus: false,
-              speed: 2
-          },
-
-          // type   : 'loop',
-          // drag   : 'free',
-          // focus  : 'center',
-          // gap   : '1rem',
-          // pagination: false,
+          // type: 'loop',
+          // rewind: true, 
+          // autoplay: true,
+          // perMove: 12,
           // perPage: 3, 
-          // autoplay: true, 
+          // gap: '1rem',
+          // arrows: true,
+          // pagination: false,
+          // // autoScroll: {
+          // //     pauseOnHover: true,
+          // //     pauseOnFocus: false,
+          // //     speed: 2
+          // // },
+
+          type   : 'loop',
+          drag   : 'free',
+          focus  : 'center',
+          gap   : '1rem',
+          pagination: false,
+          perPage: 3, 
+          autoplay: true, 
         }}
-        extensions={{ AutoScroll }}
+        // extensions={{ AutoScroll }}
       >
 
         {EventsItems.map((item) => (

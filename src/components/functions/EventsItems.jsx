@@ -23,13 +23,13 @@ export const EventsItems = [
     id: 2,
     image: evento_integracion,
     name: 'Eventos de integración',
-    description: 'Los realizamos con diferentes objetivos, como efectuar ejercicios de unión laboral que sean dinámicas capaces de reforzar los equipos de trabajo, con capacitaciones en espacios convenientes para un mejor aprendizaje y planeaciones para reconocer el compromiso de los colaboradores con la empresa.' 
+    description: 'Este tipo de evnetos los realizamos con diferentes objetivos, como efectuar ejercicios de unión laboral que sean dinámicas, capaces de reforzar los equipos de trabajo, con capacitaciones en espacios convenientes para un mejor aprendizaje y planeaciones para reconocer el compromiso de los colaboradores con la empresa.' 
   },
   {
     id: 3,
     image: evento_beneficencia,
     name: 'Eventos de Beneficencia',
-    description: 'Nos gusta estar involucrados en la planeación y ejecución de este tipo de eventos en pro de las personas que necesitan alguna ayuda. Esta estrategia se ejecuta mediante la reunión de colaboradores que desarrollan diferentes actividades donde se producen donaciones voluntarias para un fin común donde todos obtienen un aprendizaje social.'  
+    description: 'Nos gusta estar involucrados en la planeación y ejecución de este tipo de eventos en pro de las personas que necesitan alguna ayuda. Esta estrategia se ejecuta mediante la reunión de colaboradores que desarrollan diferentes actividades donde se producen donaciones voluntarias para un fin común en el que todos obtienen un aprendizaje social.'  
   },
   {
     id: 4,
@@ -41,25 +41,25 @@ export const EventsItems = [
     id: 5,
     image: evento_hibrido,
     name: 'Eventos Híbridos',
-    description: 'Hoy en día este tipos de eventos es una tendencia que tienen varias ventajas claves por encima de los eventos tradicionales ya que la mayor diferencia es el alcance que ofrecen, los organizadores (y audiencia) ya no están sujetos a limitaciones físicas o geográficas; cualquier persona en el mundo, puede potencialmente participar en el evento.'  
+    description: 'Hoy en día este tipos de eventos es una tendencia que tienen varias ventajas claves por encima de los eventos tradicionales ya que la mayor diferencia es el alcance que ofrecen, los organizadores y audiencia ya no están sujetos a limitaciones físicas o geográficas; cualquier persona en el mundo, puede potencialmente participar en el evento.'  
   },
   {
     id: 6,
     image: evento_fin_de_año,
     name: 'Eventos Fin de año para su Marca o Empresa',
-    description: 'La tendencia que se maneja en este momento es la de brindar experiencias que impacten positivamente al colaborador y a su familia. Por eso pensamos que es una oportunidad para que las Empresas motiven, reconozcan y  conecten con sus equipos de trabajo, donde las personas se sientan más abiertas a compartir y hacer de esto un evento memorable.'  
+    description: 'La tendencia que se maneja en este momento es la de brindar experiencias que impacten positivamente al colaborador y a su familia. Por eso pensamos que es una oportunidad para que las Empresas motiven, reconozcan y  conecten con sus equipos de trabajo, en el cual las personas se sientan más abiertas a compartir y hacer de esto un evento memorable.'  
   },
   {
     id: 7,
     image: evento_desayunos,
-    name: 'Desayunos, Almuerzos y/o Cenas para su empresa',
+    name: 'Desayunos, Almuerzos, Refrigerios y/o Cenas para su empresa',
     description: 'Nos comprometemos con tu evento y tus objetivos. Manejamos diferentes formatos para brindar una experiencia alimenticia que se acomode a tus necesidades y presupuestos. Contamos con una gran variedad de alimentos y presentaciones que cumplen con las normas de calidad y bioseguridad que el mercado exige.'  
   },
   {
     id: 8,
     image: evento_emprendimiento,
     name: 'Ferias de emprendimiento',
-    description: 'Creamos este tipo de eventos tanto presencial como híbrido o virtual, el cual permite el encuentro entre emprendedores, empresarios, inversores y organizaciones que buscan lograr acuerdos para abrir oportunidades de compra o venta de servicios y/o productos. Este espacio permite además un acercamiento de primera mano al usuario que podrá evaluar, adquirir y reconocer las virtudes y defectos de la empresa participante en la feria.'  
+    description: 'Creamos este tipo de eventos tanto presencial como híbrido o virtual, el cual permite el encuentro entre emprendedores, empresarios, inversores y organizaciones que buscan lograr acuerdos para abrir oportunidades de compra o venta de servicios y/o productos. Este espacio permite además un acercamiento de primera mano al usuario que podrá evaluar, adquirir, reconocer las virtudes y defectos de la empresa participante en la feria.'  
   },
   {
     id: 9,
@@ -71,13 +71,13 @@ export const EventsItems = [
     id: 10,
     image: evento_aniversario,
     name: 'Aniversarios de Empresas',
-    description: 'En ideando Eventos y Marketing nos encargamos de planificar, organizar y ejecutar el aniversario de su empresa con total personalización para cada uno de nuestros clientes. Sabemos lo importante que es para la empresa celebrar los años que lleva en pie, la trayectoria conseguida y de su crecimiento por ello es importante celebrarlo con los empleados, clientes y socios, porque gracias a ellos la organización está consolidada.'  
+    description: 'En ideando Eventos y Marketing nos encargamos de planificar, organizar y ejecutar el aniversario de su empresa con total personalización para cada uno de nuestros clientes. Sabemos lo importante que es para la empresa celebrar los años que lleva en pie, la trayectoria conseguida y de su crecimiento por ello es importante celebrarlo con nuestros colaboradores, clientes y socios, porque gracias a ellos la organización está consolidada.'  
   },
   {
     id: 11,
     image: evento_seminario,
     name: 'Seminarios, Congresos, Simposios y Foros',
-    description: 'Es otra oportunidad más que nos ofrece el maravilloso mundo de los eventos, para mantener vivo el espíritu de equipo de la empresa y formar a nuestros empleados de una forma mucho más interactiva. El éxito de una empresa radica, entre otros muchos factores, en un equipo unido y al día de las últimas novedades del sector.  '  
+    description: 'Es otra oportunidad más que nos ofrece el maravilloso mundo de los eventos, para mantener vivo el espíritu del equipo de la empresa y formar a nuestros trabajadores de una forma mucho más interactiva. El éxito de una empresa radica, entre otros muchos factores, en un equipo unido y al día de las últimas novedades del sector.'
   },
   {
     id: 12,

@@ -47,7 +47,7 @@ function ContactForm() {
 
       <fieldset className="input-form comment">
         <label className="symbol-required">TIPO DE EVENTO</label>
-        <input type="text" placeholder="Comenta un poco más a la empresa" name="comment" requirednpm/>
+        <input type="text" placeholder="Comentanos un poco más de tu evento" name="comment" requirednpm/>
       </fieldset>
 
       <div className="button-container">

@@ -44,7 +44,7 @@ function UsInfoExperience() {
         </div>
 
         <article className="experience-description">
-          <p>Ideando Eventos y Marketing es una Empresa que cuenta con la experiencia de más de 10 años en la organización integral de diseño, logística, producción e innovación corporativa para empresas. Garantizamos que las marcas cobren vida a través de actividades únicas, innovadoras y útiles para las empresas por ello te ofrecemos un equipo de trabajo apasionado y profesional quienes son los encargados de cada detalle; Apostamos por el asesoramiento, la atención, la creatividad, el trabajo en equipo, el compromiso y  la responsabilidad de cada Evento.</p>
+          <p>Ideando Eventos y Marketing es una Empresa que cuenta con la experiencia de más de 10 años en la organización integral de diseño, logística, producción e innovación corporativa para empresas. Garantizamos que las marcas cobren vida a través de actividades únicas, innovadoras y útiles para las empresas. Por ello te ofrecemos un equipo de trabajo apasionado, comprometido y profesional quienes son los encargados de cada detalle; Apostamos por el asesoramiento, la atención, la creatividad, el trabajo en equipo, el compromiso y  la responsabilidad de cada Evento.</p>
         </article>
       </div>
 

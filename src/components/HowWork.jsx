@@ -20,22 +20,22 @@ function HowWork() {
         <ul>
           <div>
             <HiOutlineBriefcase className="how-work-icon"/>
-            <li>Ponemos a Disposición del cliente el equipo de trabajo para su Evento.</li>
+            <li>Ponemos a Disposición del cliente el equipo de trabajo para tu Evento.</li>
           </div>
 
           <div>
             <HiOutlineSpeakerphone className="how-work-icon"/>
-            <li>Damos prioridad a la escucha y a las ideas del cliente para su evento.</li>
+            <li>Damos prioridad a la escucha y a las ideas del cliente.</li>
           </div>
 
           <div>
             <MdOutlineWorkspacePremium className="how-work-icon"/>
-            <li>Ofrecemos servicios de calidad para su Evento.</li>
+            <li>Ofrecemos servicios de calidad.</li>
           </div>
 
           <div>
             <FaRegMoneyBillAlt className="how-work-icon"/>
-            <li>Tenemos en cuenta que cada evento es único y para ello requiere de un presupuesto personalizado y conciso.</li>
+            <li>Sabemos que cada evento es único y para ello requiere de un presupuesto personalizado y conciso.</li>
           </div>
 
           <div>

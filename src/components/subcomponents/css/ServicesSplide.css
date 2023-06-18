@@ -4,8 +4,13 @@
 }
 
 .services-splide-container{
-  height: 210px;
   width: 55%;
+
+}
+
+.services-splide1, .services-splide2{
+  height: 210px;
+  width: 100%;
 }
 
 .services-card{

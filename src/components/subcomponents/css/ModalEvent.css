@@ -7,7 +7,7 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  height: 530px;
+  height: 490px;
   width: 500px;
   border-radius: 20px;
   box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.62);
@@ -34,6 +34,7 @@
   margin-bottom: 5px;
 }
 
+
 .close_button{
   display: flex;
   align-items: center;
@@ -48,7 +49,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 6px;
 }
 
 .modal-event-image{
@@ -62,6 +64,7 @@
   width: 100%;
   font-size: 20px;
   font-weight: 500;
+  text-align: center;
 }
 
 .modal-event-desc{

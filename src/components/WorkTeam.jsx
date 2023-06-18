@@ -8,12 +8,12 @@ function WorkTeam() {
       <article className="work-team-info">
         <h3>Equipo</h3>
 
-        <p>Somos un equipo de trabajo apasionado a su profesión y con vocación de servicio, que están  comprometidos con cada evento como si fuera el más importante,  apropiándose de el  para que sea un éxito y recordado por todos los asistentes.</p>
-
-        <p>En Ideando Eventos y Marketing creemos que SON aquellos equipos que estructuran mejor su trabajo, que retroalimentan la motivación, que ayudan a  su compañero por un objetivo común y que dentro de la empresa permitamos a nuestros colaboradores potenciar sus fortalezas y trabajar en sus debilidades para así mejorar la productividad.</p>
+        <p>En Ideando Eventos y Marketing creemos que los mejores equipos son aquellos  que estructuran mejor su trabajo, que retroalimentan la motivación, que ayudan a  su compañero por un objetivo común y que dentro de la empresa nuestros colaboradores puedan potenciar sus fortalezas y trabajar en sus debilidades para así mejorar la productividad.</p>
 
         <div className="frase">
-          <p>"Los mejores equipos de trabajo NO son aquellos que reúnen más talento individual o cuyos miembros tienen un mejor currículum."</p> 
+          <p>"Hay que estar al tanto de lo que hacen los demás, aplaudir sus esfuerzos, reconocer sus éxitos y animarles en su empeño. Cuando todos nos ayudamos mutuamente, todos ganamos."</p>
+          
+          <p>- Jim Stovall</p>
         </div>
         
       </article>

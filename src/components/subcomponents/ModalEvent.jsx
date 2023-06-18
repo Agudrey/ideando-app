@@ -19,7 +19,7 @@ function ModalEvent({ modalIsOpen , closeModal, selectedItem }) {
         ariaHideApp={false}
       >
         <div className="modal_header">
-          <h2>Información del evento</h2>
+          <h2 className="modal-event-name">{eventInfo.name}</h2>
           <button className="close_button" onClick={closeModal}>
             <AiOutlineCloseCircle />
           </button>
@@ -27,7 +27,6 @@ function ModalEvent({ modalIsOpen , closeModal, selectedItem }) {
 
           <div className="modal-event-info">
             <img className="modal-event-image" src={eventInfo.image} alt="event_image" />
-            <p className="modal-event-name">{eventInfo.name}</p>
             <p className="modal-event-desc">{eventInfo.description}</p>
           </div>
       </Modal>

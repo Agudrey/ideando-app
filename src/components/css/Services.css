@@ -9,10 +9,11 @@
 .services-info-container{
   width: 85vw;
   display: flex;
+  align-items: center;
 }
 
 .services-info{
-  height: 150px;
+  height: auto;
   width: 40%;
   margin-right: 5%;
   display: flex;
