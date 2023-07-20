@@ -27,7 +27,8 @@
 }
 
 .years-experience-container{
-  height: 250px;
+  min-height: 250px;
+  height: auto;
   width: 514px;
   display: flex;
   border-radius: 10px;
@@ -121,31 +122,47 @@
   scale: 1.1;
 }
 
-@media screen and (max-width: 530px) {
-
+@media screen and (max-width: 1240px) {
   .experience-container{
-    height: 800px;
+    height: auto;
     width: 85%;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-weight: 500;
+    gap: 16px;
   }  
 
   .info-experience-container{
-    height: 700px;
+    height: auto;
     flex-direction: column;
     align-items: center;
+    gap: 24px;
   }
 
   .years-experience-container{
-    height: 420px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+
+  .info-experience-container{
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .years-experience-container{
+    height: auto !important;
     width: 80vw;
     padding: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
   }
 
   .years-experience-container > div{
@@ -156,11 +173,14 @@
   .experience-points{
     height: 47%;
     width: 100%;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .experience-points div{
     height: auto;
-    width: 100%;
     display: flex;
     align-items: center;
   }
@@ -169,8 +189,13 @@
     margin-right: 5px;
     color: var(--green);
   }
+
+  .experience-description{
+    height: auto;
+    width: 80vw;
+    padding: 10px;
+  }
+
 }
 
-@media screen and (min-width: 529px) {
 
-}

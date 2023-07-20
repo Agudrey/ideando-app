@@ -4,7 +4,8 @@
 }
 
 .contact-form{
-  height: 66vh;
+  min-height: 66vh;
+  height: auto;
   width: 45vw;
   display: flex;
   flex-wrap: wrap;
@@ -49,15 +50,16 @@
 }
 
 .button-container{
-  height: 12%;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .button-container button{
-  height: 100%;
-  width: 25%;
+  height: 30px;
+  width: 155px;
+  margin-top: 15px;
   border-radius: 10px;
   background-color: var(--purple);
   color: white;
@@ -69,4 +71,21 @@
 .button-container button:hover{
   transform: scale(85%);
   color: var(--green);
+}
+
+@media screen and (max-width: 720px) {
+  .email-input, .phone-input, .date-input, .persons-input{
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .email-input input, .date-input input{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .contact-form{
+    width: 70vw;
+  }
 }

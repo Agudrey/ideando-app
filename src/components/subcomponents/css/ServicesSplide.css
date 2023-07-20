@@ -5,7 +5,6 @@
 
 .services-splide-container{
   width: 55%;
-
 }
 
 .services-splide1, .services-splide2{
@@ -42,47 +41,6 @@
   background: var(--purple);
 }
 
-/* .services-card span:nth-child(2){
-  position: absolute;
-  height: 176px;
-  width: 176px;
-  border: 2px solid black;
-  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
-  transition: 0.5s;
-  animation: animate 6s linear infinite;
-}
-
-.card-green:hover span:nth-child(2){
-  border: none;
-  background: var(--green);
-}
-
-.card-purple:hover span:nth-child(2){
-  border: none;
-  background: var(--purple);
-}
-
-
-.services-card span:nth-child(3){
-  position: absolute;
-  height: 176px;
-  width: 176px;
-  border: 2px solid black;
-  border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
-  transition: 0.5s;
-  animation: animate2 10s linear infinite;
-}
-
-.card-green:hover span:nth-child(3){
-  border: none;
-  background: var(--green);
-}
-
-.card-purple:hover span:nth-child(3){
-  border: none;
-  background: var(--purple);
-} */
-
 .card-purple:hover{
   color: white;
 }
@@ -101,21 +59,14 @@
   margin-bottom: 5px;
 }
 
-
-@keyframes animate{
-  0%{
-    transform: rotate(0deg);
-  }
-  100%{
-    transform: rotate(360deg);
+@media screen and (max-width: 1140px) {
+  .services-splide-container{
+    width: 75%;
   }
 }
 
-@keyframes animate2{
-  0%{
-    transform: rotate(360deg);
-  }
-  100%{
-    transform: rotate(0deg);
+@media screen and (max-width: 805px) {
+  .services-splide-container{
+    display: none;
   }
 }

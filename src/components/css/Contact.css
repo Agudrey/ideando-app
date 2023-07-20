@@ -13,7 +13,8 @@
 }
 
 .contact-info{
-  height: 120px;
+  min-height: 120px;
+  height: auto;
   margin-bottom: 10px;
   width: 70vw;
   display: flex;
@@ -21,7 +22,8 @@
 }
 
 .contact-info h3{
-  height: 40px;
+  min-height: 40px;
+  height: auto;
   width: 100%;
   text-align: center;
   font-size: 30px;
@@ -35,14 +37,24 @@
 
 .contact-logo{
   position: absolute;
-  top: 100px;
-  left: 385px;
+  top: '50%';
+  left: '50%';
+  right: 'auto';
+  bottom: 'auto';
+  margin-right: '-50%';
+  transform: 'translate(-50%, -50%)';
+}
+
+@media screen and (max-width: 587px) {
+  .contact-info{
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 530px) {
-
   .contact-logo{
-    display: none;
+    height: auto;
+    width: 80vw;
   }
 }
 
