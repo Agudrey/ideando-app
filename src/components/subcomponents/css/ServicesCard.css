@@ -44,3 +44,9 @@
     margin-bottom: 0px;
   }
 }
+
+@media screen and (min-width: 806px) {
+  .services-card-container{
+    display: none;
+  }
+}
