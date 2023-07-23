@@ -20,6 +20,10 @@
   font-size: 30px;
 }
 
+.experience-years-text{
+  font-weight: 600;
+}
+
 .info-experience-container{
   height: 250px;
   width: 100%;
@@ -93,7 +97,7 @@
   height: 250px;
   width: 514px;
   padding: 15px;
-  text-align: justify;
+  text-align: center;
   font-size: 18px;
   border-radius: 10px;
   background-color: white;
@@ -158,8 +162,8 @@
 
   .years-experience-container{
     height: auto !important;
-    width: 80vw;
-    padding: 10px;
+    width: 85vw;
+    padding: 10px 10px 15px 10px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -184,6 +188,9 @@
     height: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+
   }
   
   .points-icons{
@@ -193,7 +200,7 @@
 
   .experience-description{
     height: auto;
-    width: 80vw;
+    width: 85vw;
     padding: 10px;
   }
 
