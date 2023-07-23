@@ -27,8 +27,8 @@ function Banner() {
       />
 
       <ReactPlayer 
-        className="video video-mobil"
-        url="https://youtu.be/IPZY6rBQEZ0" 
+        className="video video-mobile"
+        url="https://youtube.com/shorts/dx_jVE1QKzQ?feature=share" 
         playing
         loop
         muted

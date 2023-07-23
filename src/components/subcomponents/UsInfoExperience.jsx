@@ -29,7 +29,7 @@ function UsInfoExperience() {
           <div>
             <RiMedalLine className="experience-icon"/>
 
-            <h5 className="experience-years">10</h5>
+            <h5 className="experience-years">8</h5>
             <p>Años de experiencia en el sector</p>
           </div>
           

@@ -1,6 +1,6 @@
 nav{
   height: 80px;
-  width: 99vw;
+  width: 100vw;
   position: fixed;
   display: flex;
   font-weight: 700;
@@ -25,6 +25,7 @@ nav{
   align-items: center;
   z-index: 2;
   position: relative;
+  text-align: center;
 }
 
 .navbar-list-desktop li, .navbar-list-mobile li{
@@ -115,7 +116,7 @@ nav{
   display: none;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 880px) {
 
   nav{
     width: 100vw;
@@ -129,7 +130,7 @@ nav{
 
 }
 
-@media screen and (min-width: 529px) {
+@media screen and (min-width: 879px) {
 
   .burguer-icon{
     display: none;

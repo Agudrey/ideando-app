@@ -6,6 +6,7 @@ import UsInfoExperience from "./subcomponents/UsInfoExperience"
 function UsInfo() {
   return (
     <section className="info-container" id="usInfo">
+      <div className="info-container-background-color"></div>
       <h1>¡Creamos el evento perfecto para ti!</h1>
 
       <UsInfoExperience />

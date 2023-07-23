@@ -32,7 +32,7 @@ export const ServicesItems = [
     {
       id: 5,
       icon: BsFillCameraReelsFill,
-      name: 'Producción Audiovisual',  
+      name: 'Alquiler de equipos, sonido y luces',  
     },
     {
       id: 6,

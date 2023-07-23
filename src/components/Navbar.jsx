@@ -54,7 +54,7 @@ function Navbar() {
       <div className="whatsapp-container">
         <p className="whatsapp-text">Chatea con nosotros!</p>
 
-        <a className="whatsapp-button" href="/">
+        <a className="whatsapp-button" href="https://api.whatsapp.com/send?phone=573112292727">
           <BsWhatsapp />
         </a>
       </div>
