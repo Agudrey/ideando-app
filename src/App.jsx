@@ -8,6 +8,8 @@ import Services from './components/Services';
 import WorkTeam from './components/WorkTeam';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { BsWhatsapp } from 'react-icons/bs';
+
 
 function App() {
   return (
@@ -21,6 +23,14 @@ function App() {
       <WorkTeam />
       <Contact />
       <Footer />
+
+      <div className="whatsapp-container">
+        <p className="whatsapp-text">Chatea con nosotros!</p>
+
+        <a className="whatsapp-button" href="https://api.whatsapp.com/send?phone=573112292727">
+          <BsWhatsapp />
+        </a>
+      </div>
     </main>
   );
 }

@@ -1,6 +1,5 @@
 import "./css/Navbar.css"
 import { useState } from "react";
-import { BsWhatsapp } from 'react-icons/bs';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import logo from "./Images/interface-images/logo.webp"
 
@@ -50,15 +49,6 @@ function Navbar() {
         <li onClick={() => clickScroll("workTeam")}>Equipo</li>
         <li onClick={() => clickScroll("contact")}>Contacto</li>
       </ul>
-
-      <div className="whatsapp-container">
-        <p className="whatsapp-text">Chatea con nosotros!</p>
-
-        <a className="whatsapp-button" href="https://api.whatsapp.com/send?phone=573112292727">
-          <BsWhatsapp />
-        </a>
-      </div>
-      
     </nav>
   )
 }

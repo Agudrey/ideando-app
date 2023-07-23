@@ -42,6 +42,10 @@
   .video-mobile{
     display: block;
   }
+
+  .banner-button{
+    bottom: 170px;
+  }
 }
 
 @media screen and (min-width: 529px) {
