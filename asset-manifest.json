@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ideando-app/static/css/main.3a7a8459.css",
-    "main.js": "/ideando-app/static/js/main.3e1cebef.js",
+    "main.css": "/ideando-app/static/css/main.ffa69aa5.css",
+    "main.js": "/ideando-app/static/js/main.649ba852.js",
     "static/media/Eventos-de-Integracion.webp": "/ideando-app/static/media/Eventos-de-Integracion.64a6f37220a862486ff2.webp",
     "static/media/Eventos-culturales-y-Recreativos.webp": "/ideando-app/static/media/Eventos-culturales-y-Recreativos.0d652ed0924469861e35.webp",
     "static/media/Eventos-Experienciales.webp": "/ideando-app/static/media/Eventos-Experienciales.d835c1246249d1322ed4.webp",
@@ -16,17 +16,17 @@
     "static/media/Coctel.webp": "/ideando-app/static/media/Coctel.eb522f3c2fe56e421b12.webp",
     "static/media/Ferias-de-emprendimiento.webp": "/ideando-app/static/media/Ferias-de-emprendimiento.20ab3d5c95e4ac7905f6.webp",
     "static/media/work-team-image1.webp": "/ideando-app/static/media/work-team-image1.ff9d90aef831857207d1.webp",
-    "static/media/green-logo.webp": "/ideando-app/static/media/green-logo.3e4db5b9354d9adfb2fa.webp",
     "static/media/logo.webp": "/ideando-app/static/media/logo.161f57ea4f007f99554f.webp",
+    "static/media/SVG curve.svg": "/ideando-app/static/media/SVG curve.c06e801d93f4e84374d346728d849e11.svg",
     "static/media/circle-logo.webp": "/ideando-app/static/media/circle-logo.ad7940e3125d5a0247c7.webp",
     "index.html": "/ideando-app/index.html",
     "static/media/waveDownG.svg": "/ideando-app/static/media/waveDownG.f0934fe169b0ea78ad6c2cf15ff68d73.svg",
     "static/media/waveUpG.svg": "/ideando-app/static/media/waveUpG.d6eb3af832e212c833bda2cc6072eec3.svg",
-    "main.3a7a8459.css.map": "/ideando-app/static/css/main.3a7a8459.css.map",
-    "main.3e1cebef.js.map": "/ideando-app/static/js/main.3e1cebef.js.map"
+    "main.ffa69aa5.css.map": "/ideando-app/static/css/main.ffa69aa5.css.map",
+    "main.649ba852.js.map": "/ideando-app/static/js/main.649ba852.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a7a8459.css",
-    "static/js/main.3e1cebef.js"
+    "static/css/main.ffa69aa5.css",
+    "static/js/main.649ba852.js"
   ]
 }
