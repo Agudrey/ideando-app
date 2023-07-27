@@ -1,6 +1,7 @@
 import "./css/UsInfo.css"
 import UsInfoCard from "./subcomponents/UsInfoCard"
 import UsInfoExperience from "./subcomponents/UsInfoExperience"
+import UsInfoLine from "./subcomponents/UsInfoLine"
 
 
 function UsInfo() {
@@ -11,7 +12,10 @@ function UsInfo() {
 
       <UsInfoExperience />
 
-      <UsInfoCard />
+      <div className="info-container-cards">
+        <UsInfoLine />
+        <UsInfoCard />
+      </div>
     </section>
   )
 }
