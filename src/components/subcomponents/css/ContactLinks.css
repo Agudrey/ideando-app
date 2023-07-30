@@ -84,4 +84,19 @@
   color: #2867B2;
 }
 
+@media screen and (max-width: 500px) {
+  .links-container{
+    width: 100%;
+  }
+
+  .link:hover, .link:focus{
+    outline: 0;
+    width: 70px;
+  }
+
+  .link-title{
+    display: none;
+  }
+}
+
 

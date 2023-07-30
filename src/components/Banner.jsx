@@ -26,6 +26,11 @@ function Banner() {
         config ={{youtube : {playerVars : {  showinfo : 1  } }}}
       />
 
+      <div className="banner-text">
+        <h2>CREAMOS EXPERIENCIAS INOVADORAS</h2>
+        <p>Porque en tu evento cada detalle cuenta</p>
+      </div>
+
       <ReactPlayer 
         className="video video-mobile"
         url="https://youtube.com/shorts/dx_jVE1QKzQ?feature=share" 

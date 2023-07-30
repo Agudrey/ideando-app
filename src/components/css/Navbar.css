@@ -62,13 +62,25 @@ nav{
   padding: 5PX;
   border-radius: 8PX;
   background-color: #F1FBD1;
-
 }
 
 .burguer-icon{
   height: 35px;
   width: 35px;
   color: #252262;
+}
+
+.disable{
+  display: none;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rebeccapurple;
 }
 
 @media screen and (max-width: 880px) {

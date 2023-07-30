@@ -1,15 +1,27 @@
 import "./css/Navbar.css"
 import { useState } from "react";
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdOutlineClose } from 'react-icons/md';
 import logo from "./Images/interface-images/logo.webp"
+import Modal from 'react-modal';
 
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState({});
 
   const clickMenuBurger = () => {
     setMenu(!menu);
   };
+  
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   const clickScroll = (name) => {
     //localizamos el elemento (seccion)
@@ -39,7 +51,8 @@ function Navbar() {
         <li onClick={() => clickScroll("contact")}>Contacto</li>
       </ul>
 
-      <GiHamburgerMenu onClick={clickMenuBurger} className="burguer-icon" />
+      <GiHamburgerMenu onClick={clickMenuBurger} className={menu? "disable" : "burguer-icon"}/>
+      <MdOutlineClose onClick={clickMenuBurger} className={!menu? "disable" : "burguer-icon"}/>
 
       <ul className={!menu? "disable" : "navbar-list-mobile"}>
         <li onClick={() => clickScroll("usInfo")}>Nosotros</li>

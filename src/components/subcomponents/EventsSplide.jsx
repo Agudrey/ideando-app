@@ -1,26 +1,10 @@
 import "./css/EventsSplide.css"
-import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { EventsItems } from "../functions/EventsItems"
 import { useState } from "react"
-import ModalEvent from "./ModalEvent";
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll'
 
 
 function EventsSplide() {
-  const [modalIsOpen, setIsOpen] = useState(false);
-  const [selectedItem, setSelectedItem] = useState({});
-  
-  const openModal = (item) => {
-    setIsOpen(true);
-    setSelectedItem(item.id)
-  }
-
-  const closeModal = () => {
-    setIsOpen(false);
-  }
-
-
   return (
     <div className="events_cards_container">
       {EventsItems.map((item)=>

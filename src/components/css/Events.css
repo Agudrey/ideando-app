@@ -10,7 +10,7 @@
 }
 
 .events-info{
-  height: 80px;
+  height: auto;
   width: 70vw;
   display: flex;
   flex-direction: column;
