@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ideando-app/static/css/main.8fee1824.css",
-    "main.js": "/ideando-app/static/js/main.4631006c.js",
+    "main.css": "/ideando-app/static/css/main.16371fa8.css",
+    "main.js": "/ideando-app/static/js/main.2e112ccb.js",
     "static/media/Eventos-de-Integracion.webp": "/ideando-app/static/media/Eventos-de-Integracion.64a6f37220a862486ff2.webp",
     "static/media/Eventos-culturales-y-Recreativos.webp": "/ideando-app/static/media/Eventos-culturales-y-Recreativos.0d652ed0924469861e35.webp",
     "static/media/Eventos-Experienciales.webp": "/ideando-app/static/media/Eventos-Experienciales.d835c1246249d1322ed4.webp",
@@ -20,12 +20,11 @@
     "static/media/circle-logo.webp": "/ideando-app/static/media/circle-logo.ad7940e3125d5a0247c7.webp",
     "index.html": "/ideando-app/index.html",
     "static/media/waveDownG.svg": "/ideando-app/static/media/waveDownG.f0934fe169b0ea78ad6c2cf15ff68d73.svg",
-    "static/media/waveUpG.svg": "/ideando-app/static/media/waveUpG.d6eb3af832e212c833bda2cc6072eec3.svg",
-    "main.8fee1824.css.map": "/ideando-app/static/css/main.8fee1824.css.map",
-    "main.4631006c.js.map": "/ideando-app/static/js/main.4631006c.js.map"
+    "main.16371fa8.css.map": "/ideando-app/static/css/main.16371fa8.css.map",
+    "main.2e112ccb.js.map": "/ideando-app/static/js/main.2e112ccb.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fee1824.css",
-    "static/js/main.4631006c.js"
+    "static/css/main.16371fa8.css",
+    "static/js/main.2e112ccb.js"
   ]
 }
