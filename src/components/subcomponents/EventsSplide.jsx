@@ -22,52 +22,20 @@ function EventsSplide() {
 
 
   return (
-    <div className="events-splide-container">
-      <Splide
-        options={ {
-          // type: 'loop',
-          // rewind: true, 
-          // autoplay: true,
-          // perMove: 12,
-          // perPage: 3, 
-          // gap: '1rem',
-          // arrows: true,
-          // pagination: false,
-          // // autoScroll: {
-          // //     pauseOnHover: true,
-          // //     pauseOnFocus: false,
-          // //     speed: 2
-          // // },
+    <div className="events_cards_container">
+      {EventsItems.map((item)=>
+        <div className="events_card" key={item.id}>
+          <div className="events_card_content">
+            <div className="events_card_front" style={{backgroundImage: `url(${item.image})`}}>
+              <h3 className="card_title">{item.name}</h3>
+            </div>
 
-          type   : 'loop',
-          drag   : 'free',
-          focus  : 'center',
-          gap   : '1rem',
-          pagination: false,
-          perPage: 3, 
-          autoplay: true, 
-        }}
-        // extensions={{ AutoScroll }}
-      >
-
-        {EventsItems.map((item) => (
-          <SplideSlide
-            key={item.id}
-            className="event-card"
-            onClick={() => openModal(item)}
-          >
-            <img className="event-image" src={item.image} alt="event_image" />
-            <h4 className="event-name">{item.name}</h4>
-            <p className="event-description">Más información...</p>
-          </SplideSlide>
-        ))}
-      </Splide>
-
-      <ModalEvent 
-        selectedItem={selectedItem}
-        modalIsOpen={modalIsOpen}
-        closeModal={closeModal}
-      />
+            <div className="events_card_back">
+              <p className="card_description">{item.description}</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

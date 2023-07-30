@@ -1,13 +1,10 @@
 import "./css/Services.css"
 import ServicesSplide from "./subcomponents/ServicesSplide"
 import ServicesCard from "./subcomponents/ServicesCard"
-import waveUp from "./Images/interface-images/waveUpG.svg"
 
 function Services() {
   return (
-    <section className="services-container">
-      <img src={waveUp} alt="wave" id="services"/>
-
+    <section className="services-container" id="services">
       <div className="services-info-container">
         <article className="services-info">
           <h3>Servicios</h3>
@@ -17,7 +14,6 @@ function Services() {
         <ServicesSplide />
         <ServicesCard />
       </div>
-      
     </section>
   )
 }

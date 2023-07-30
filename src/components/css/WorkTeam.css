@@ -48,13 +48,18 @@
 .frase{
   width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
-.frase p{
-  width: 80%;
-  text-align: center;
-  font-style: italic;
+.frase-text{
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

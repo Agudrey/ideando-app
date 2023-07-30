@@ -4,7 +4,7 @@ import EventsSplide from "./subcomponents/EventsSplide"
 
 function Events() {
   return (
-    <section className="events-container">
+    <section className="events-container" id="events">
 
       <article className="events-info">
         <h3>Eventos</h3>

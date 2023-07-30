@@ -61,7 +61,7 @@ function HowWork() {
 
 
       <img src={logo} alt="logo" className="background-logo down-logo"/>
-      <img src={waveDown} alt="wave" id="events"/>
+      {/* <img src={waveDown} alt="wave" id="events"/> */}
     </section>
   )
 }

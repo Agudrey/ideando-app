@@ -1,41 +1,103 @@
-.events-splide-container{
-  height: 300px;
-  width: 80vw;
+:root{
+  --level-one: translateZ(3rem);
+  --level-two: translateZ(6rem);
+  --level-three: translateZ(9rem);
+  
+  --fw-normal: 400;
+  --fw-bold: 700;
+  
+  --clr: #272727be;
 }
 
-.splide{
-  height: 100%;
-  width: 100%;
-  z-index: 0;
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.event-card{
-  height: 300px;
-  width: 200px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
+.events_cards_container{
+  margin-top: 16px;
+  width: 90%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-}
-
-.event-image{
-  height: auto;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.event-name{
-  height: 42px;
-  width: 100%;
-  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  gap: 32px;
 }
 
-.event-description{
-  height: 14px;
-  width: 100%;
+.events_card{
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 16px;
+
+}
+
+.events_card_content{
+  text-align: center;
+  position: relative;
+  padding: 100px;
+  transition: transform .5s;
+  transform-style: preserve-3d;
+}
+
+.events_card:hover .events_card_content{
+  transform: rotateY(.5turn);
+}
+
+.events_card_front,
+.events_card_back{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  display: grid;
+  align-content: center;
+  border-radius: 16px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+
+}
+
+.events_card_front{
+  background-color: var(--clr);
+  background-size: cover;
+  background-blend-mode: overlay;
+  color: white;
+  padding: 5em 3em;
+}
+
+.events_card_front::before{
+  content: '';
+  position: absolute;
+  --spacer: 1em;
+  top: var(--spacer);
+  bottom: var(--spacer);
+  left: var(--spacer);
+  right: var(--spacer);
+  border: 3px solid currentColor;
+  transform: var(--level-one);
+  border-radius: 16px;
+}
+
+.card_title{
+  font-size: 20px;
+  transform: var(--level-three);
+  order: 2;
+  text-transform: uppercase;
+}
+
+.card_description{
+  transform: var(--level-two);
   font-size: 14px;
+  line-height: 1.6;
+  color: black;
+  text-align: justify;
+}
+
+.events_card_back{
+  transform: rotateY(.5turn);
+  color: var(--clr);
+  background-color: #E5E4E4;
+  padding: 15px;
 }
