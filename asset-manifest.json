@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/ideando-app/static/css/main.4e64f40b.css",
-    "main.js": "/ideando-app/static/js/main.e1acd492.js",
+    "main.css": "/ideando-app/static/css/main.14b5827a.css",
+    "main.js": "/ideando-app/static/js/main.22419b5b.js",
+    "static/media/video_desktop.mp4": "/ideando-app/static/media/video_desktop.5d66cbc0b316166c0b57.mp4",
+    "static/media/video_mobile.mp4": "/ideando-app/static/media/video_mobile.71bf7db1f45d793e9bdb.mp4",
     "static/media/Eventos-de-Integracion.webp": "/ideando-app/static/media/Eventos-de-Integracion.64a6f37220a862486ff2.webp",
     "static/media/Eventos-culturales-y-Recreativos.webp": "/ideando-app/static/media/Eventos-culturales-y-Recreativos.0d652ed0924469861e35.webp",
     "static/media/Eventos-Experienciales.webp": "/ideando-app/static/media/Eventos-Experienciales.d835c1246249d1322ed4.webp",
@@ -20,11 +22,11 @@
     "static/media/circle-logo.webp": "/ideando-app/static/media/circle-logo.ad7940e3125d5a0247c7.webp",
     "index.html": "/ideando-app/index.html",
     "static/media/waveDownG.svg": "/ideando-app/static/media/waveDownG.f0934fe169b0ea78ad6c2cf15ff68d73.svg",
-    "main.4e64f40b.css.map": "/ideando-app/static/css/main.4e64f40b.css.map",
-    "main.e1acd492.js.map": "/ideando-app/static/js/main.e1acd492.js.map"
+    "main.14b5827a.css.map": "/ideando-app/static/css/main.14b5827a.css.map",
+    "main.22419b5b.js.map": "/ideando-app/static/js/main.22419b5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e64f40b.css",
-    "static/js/main.e1acd492.js"
+    "static/css/main.14b5827a.css",
+    "static/js/main.22419b5b.js"
   ]
 }
