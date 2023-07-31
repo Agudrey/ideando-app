@@ -3,26 +3,15 @@ import { useState } from "react";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineClose } from 'react-icons/md';
 import logo from "./Images/interface-images/logo.webp"
-import Modal from 'react-modal';
 
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
-  const [modalIsOpen, setIsOpen] = useState(false);
-  const [selectedItem, setSelectedItem] = useState({});
 
   const clickMenuBurger = () => {
     setMenu(!menu);
   };
   
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
-
   const clickScroll = (name) => {
     //localizamos el elemento (seccion)
     const element = document.getElementById(name);

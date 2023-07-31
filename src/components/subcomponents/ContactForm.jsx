@@ -21,33 +21,33 @@ function ContactForm() {
   return (
     <form className="contact-form" onSubmit={handleSubmit} ref={refForm}>
       <fieldset className="input-form name">
-        <label className="symbol-required">NOMBRE Y APELLIDO</label>
-        <input type="text" placeholder="Nombre y apellidos" name="user_name" required/>
+        <label className="symbol-required" for="name">NOMBRE Y APELLIDO:</label>
+        <input type="text" placeholder="Nombre y apellidos" name="user_name" id="name" required/>
       </fieldset>
 
       <fieldset className="input-form email-input">
-        <label className="symbol-required">EMAIL</label>
-        <input type="email" placeholder="@Email" name="user_email" required/>
+        <label className="symbol-required" for="email">EMAIL:</label>
+        <input type="email" placeholder="@Email" name="user_email" id="email" required/>
       </fieldset>
 
       <fieldset className="input-form phone-input">
-        <label className="symbol-required">TELÉFONO</label>
-        <input type="tel" placeholder="Teléfono" name="user_phone" required/>
+        <label className="symbol-required" for="phone">TELÉFONO</label>
+        <input type="tel" placeholder="Teléfono" name="user_phone" id="phone" required/>
       </fieldset>
 
       <fieldset className="input-form date-input">
-        <label className="symbol-required">FECHA DE EVENTO</label>
-        <input type="date" name="event_date" required/>
+        <label className="symbol-required" for="date">FECHA DE EVENTO</label>
+        <input type="date" name="event_date" id="date" required/>
       </fieldset>
 
       <fieldset className="input-form persons-input">
-        <label className="symbol-required">N° DE PERSONAS</label>
-        <input type="number" placeholder="Invitados" name="number_invites" required/>
+        <label className="symbol-required" for="persons">N° DE PERSONAS</label>
+        <input type="number" placeholder="Invitados" name="number_invites" id="persons" required/>
       </fieldset>
 
       <fieldset className="input-form comment">
-        <label className="symbol-required">TIPO DE EVENTO</label>
-        <input type="text" placeholder="Comentanos un poco más de tu evento" name="comment" requirednpm/>
+        <label className="symbol-required" for="comment">TIPO DE EVENTO</label>
+        <input type="text" placeholder="Comentanos un poco más de tu evento" name="comment" id="comment" required/>
       </fieldset>
 
       <div className="button-container">

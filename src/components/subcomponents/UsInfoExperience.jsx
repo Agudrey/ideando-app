@@ -29,16 +29,13 @@ function UsInfoExperience() {
           <div>
             <RiMedalLine className="experience-icon"/>
 
-            <h5 className="experience-years">8</h5>
-            <p className="experience-years-text">Años de experiencia en el sector</p>
+            <h3 className="experience-years">8</h3>
+            <p key={1} className="experience-years-text">Años de experiencia en el sector</p>
           </div>
           
           <ul className="experience-points">
             {experiencePoints.map((item) =>
-              <div>
-                <BsFillPatchCheckFill className="points-icons"/>
-                <li>{item}</li>
-              </div>
+              <li key={item.id}><BsFillPatchCheckFill className="points-icons"/> {item}</li>
             )}
           </ul>
         </div>

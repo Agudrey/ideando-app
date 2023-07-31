@@ -1,7 +1,6 @@
 import "./css/EventsSplide.css"
 import '@splidejs/react-splide/css';
 import { EventsItems } from "../functions/EventsItems"
-import { useState } from "react"
 
 
 function EventsSplide() {
