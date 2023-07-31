@@ -8,7 +8,6 @@
   justify-content: space-around;
   align-items: center;
   background-color: #B8EA14;
-  flex-wrap: wrap;
 }
 
 .links_container{
@@ -42,7 +41,7 @@
 
 .footer-contact-container{
   height: auto;
-  width: 100%;
+  width: 500px;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -53,6 +52,12 @@
 .footer-contact-container a{
   text-decoration: none;
   color: black;
+}
+
+@media screen and (min-width: 1011px) {
+  .copyright_text_mobile{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1010px) {

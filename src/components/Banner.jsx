@@ -1,5 +1,7 @@
 import "./css/Banner.css"
 import ReactPlayer from "react-player"
+import video_mobile from "../components/Videos/video_mobile.mp4"
+import video_desktop from "../components/Videos/video_desktop.mp4"
 
 
 function Banner() {
@@ -15,34 +17,18 @@ function Banner() {
 
   return (
     <section className='video-container'>
-      <ReactPlayer 
-        className="video video-desktop"
-        url="https://www.youtube.com/watch?v=IPZY6rBQEZ0&ab_channel=IdeandoEventosyMarketing" 
-        playing
-        loop
-        muted
-        height={"100%"}
-        width={"100%"}
-        config ={{youtube : {playerVars : {  showinfo : 1  } }}}
-      />
+      <video src={video_desktop} className="video video-desktop" loop muted autoPlay></video>
 
-      <div className="banner-text">
-        <h2>CREAMOS EXPERIENCIAS INOVADORAS</h2>
-        <p>Porque en tu evento cada detalle cuenta</p>
+      <video src={video_mobile} className="video video-mobile" loop muted autoPlay></video>
+
+      <div className="banner_content">
+        <div className="banner-text">
+          <h2>CREAMOS EXPERIENCIAS INOVADORAS</h2>
+          <p>Porque en tu evento cada detalle cuenta</p>
+        </div>
+
+        <button className="banner-button" onClick={() => clickScroll("contact")}>Cotiza tu evento</button>
       </div>
-
-      <ReactPlayer 
-        className="video video-mobile"
-        url="https://youtube.com/shorts/dx_jVE1QKzQ?feature=share" 
-        playing
-        loop
-        muted
-        height={"100%"}
-        width={"100%"}
-        config ={{youtube : {playerVars : {  showinfo : 1  } }}}
-      />
-
-      <button className="banner-button" onClick={() => clickScroll("contact")}>Cotiza tu evento</button>
     </section>
   )
 }
