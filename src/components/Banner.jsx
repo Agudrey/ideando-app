@@ -1,5 +1,4 @@
 import "./css/Banner.css"
-import ReactPlayer from "react-player"
 import video_mobile from "../components/Videos/video_mobile.mp4"
 import video_desktop from "../components/Videos/video_desktop.mp4"
 
