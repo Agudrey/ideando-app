@@ -26,7 +26,6 @@ function App() {
 
       <div className="whatsapp-container">
         <p className="whatsapp-text">Chatea con nosotros!</p>
-
         <a className="whatsapp-button" href="https://api.whatsapp.com/send?phone=573112292727" aria-label="Tell us about your event">
           <BsWhatsapp />
         </a>

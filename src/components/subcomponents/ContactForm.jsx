@@ -6,6 +6,10 @@ function ContactForm() {
 
   const refForm = useRef();
 
+  const cleanInputs = () => {
+    refForm.current.reset();
+  }
+
   const handleSubmit = (e) =>{
     e.preventDefault();
 
@@ -16,6 +20,7 @@ function ContactForm() {
 
     emailjs.sendForm(serviceId, templateId, refForm.current, apiKey)
     .catch(error => console.error(error))
+    cleanInputs()
   }
 
   return (

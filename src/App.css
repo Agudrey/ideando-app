@@ -29,6 +29,34 @@
     background-color: #35D751;
     border-radius: 50%;
     font-size: 25px;
+    position: relative;
+    transform: all .5s ease;
+    border-right: none;
+  }
+
+  .whatsapp-button::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #35D751;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+  }
+
+  .whatsapp-button:focus{
+    border: none;
+    outline: none;
   }
   
   .whatsapp-button :nth-child(1){
@@ -43,4 +71,9 @@
   
   .disable{
     display: none;
+  }
+
+  @keyframes pulse-border{
+    0%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity: 1;}
+    100%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5); opacity: 0;}
   }
