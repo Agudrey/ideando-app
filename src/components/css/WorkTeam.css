@@ -55,9 +55,9 @@
 }
 
 .frase-text{
-  height: 200px;
-  width: 200px;
-  border: 2px solid white;
+  height: 180px;
+  width: 180px;
+  border: 5px solid white;
   border-radius: 50%;
   display: flex;
   justify-content: center;

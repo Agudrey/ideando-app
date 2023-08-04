@@ -1,4 +1,4 @@
-.whatsapp-container{
+.whatsapp-container, .phone-container{
     height: 10vh;
     width: auto;
     position: absolute;
@@ -9,8 +9,16 @@
     position: fixed;
     z-index: 1000;
   }
+
+  .whatsapp-container{
+    bottom: 5vh;
+  }
+
+  .phone-container{
+    bottom: 17vh;
+  }
    
-  .whatsapp-text{
+  .whatsapp-text, .phone-text{
     height: 35px;
     width: 165px;
     background-color: white;
@@ -18,23 +26,33 @@
     border-radius: 5px;
     display: none;
   }
-  
-  .whatsapp-button{
+
+  .whatsapp-button, .phone-button{
     height: 55px;
     width: 55px;
     margin-left: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #35D751;
     border-radius: 50%;
     font-size: 25px;
     position: relative;
     transform: all .5s ease;
     border-right: none;
+    color: white;
+    cursor: pointer;
   }
 
-  .whatsapp-button::before{
+  .whatsapp-button{
+    background-color: #35D751;
+  }
+
+  .phone-button{
+    background-color: #fbff00;
+    color: black;
+  }
+
+  .whatsapp-button::before, .phone-button::before{
     content: "";
     position: absolute;
     z-index: -1;
@@ -48,22 +66,29 @@
     display: block;
     width: 60px;
     height: 60px;
-    background-color: #35D751;
     border-radius: 50%;
     -webkit-animation: pulse-border 1500ms ease-out infinite;
     animation: pulse-border 1500ms ease-out infinite;
   }
 
-  .whatsapp-button:focus{
+  .whatsapp-button::before{
+    background-color: #35D751;
+  }
+
+  .phone-button::before{
+    background-color: #252262;
+  }
+
+  .whatsapp-button:focus, .phone-button:focus{
     border: none;
     outline: none;
   }
   
-  .whatsapp-button :nth-child(1){
+  .whatsapp-button:nth-child(1), .phone-button:nth-child(1){
     color: white;
   }
   
-  .whatsapp-container:hover > .whatsapp-text{
+  .whatsapp-container:hover > .whatsapp-text, .phone-container:hover > .phone-text{
     display: flex;
     justify-content: center;
     align-items: center;

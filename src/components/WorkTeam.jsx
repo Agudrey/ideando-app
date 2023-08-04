@@ -13,9 +13,9 @@ function WorkTeam() {
         <p>Promovemos el crecimiento personal para que nuestros trabajadores adquieran habilidades que les ayuden a superar dificultades. Logrando la común unión de intereses y esfuerzos, la colaboración y la utilización de las habilidades, talentos, formación y experiencias de los integrantes del equipo con el compromiso de cada uno para ser honesto, respetuoso y sabiendo escuchar al otro son bases indispensables para trabajar como base del éxito o fracaso de la organización.</p>
 
         <div className="frase">
-          <p className="frase-text">IMPACTAMOS</p>
           <p className="frase-text">IDEAMOS</p>
           <p className="frase-text">CREAMOS</p>
+          <p className="frase-text">IMPACTAMOS</p>
         </div>
         
       </article>
