@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ideando-app/static/css/main.52ea4041.css",
-    "main.js": "/ideando-app/static/js/main.f3dfa9a5.js",
+    "main.css": "/ideando-app/static/css/main.44a34659.css",
+    "main.js": "/ideando-app/static/js/main.0182a541.js",
     "static/media/video_desktop.mp4": "/ideando-app/static/media/video_desktop.d41e0b37f3ce695a8221.mp4",
     "static/media/video_mobile.mp4": "/ideando-app/static/media/video_mobile.5377a016fb2bcfecc288.mp4",
     "static/media/Eventos-de-Integracion.webp": "/ideando-app/static/media/Eventos-de-Integracion.64a6f37220a862486ff2.webp",
@@ -22,11 +22,11 @@
     "static/media/circle-logo.webp": "/ideando-app/static/media/circle-logo.ad7940e3125d5a0247c7.webp",
     "index.html": "/ideando-app/index.html",
     "static/media/waveDownG.svg": "/ideando-app/static/media/waveDownG.f0934fe169b0ea78ad6c2cf15ff68d73.svg",
-    "main.52ea4041.css.map": "/ideando-app/static/css/main.52ea4041.css.map",
-    "main.f3dfa9a5.js.map": "/ideando-app/static/js/main.f3dfa9a5.js.map"
+    "main.44a34659.css.map": "/ideando-app/static/css/main.44a34659.css.map",
+    "main.0182a541.js.map": "/ideando-app/static/js/main.0182a541.js.map"
   },
   "entrypoints": [
-    "static/css/main.52ea4041.css",
-    "static/js/main.f3dfa9a5.js"
+    "static/css/main.44a34659.css",
+    "static/js/main.0182a541.js"
   ]
 }
