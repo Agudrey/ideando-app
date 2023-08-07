@@ -1,6 +1,6 @@
 import "./css/Banner.css"
-import video_mobile from "../components/Videos/video_mobile.mp4"
-import video_desktop from "../components/Videos/video_desktop.mp4"
+import video_mobile from "./video_mobile.mp4"
+import video_desktop from "./video_desktop.mp4"
 
 
 function Banner() {
