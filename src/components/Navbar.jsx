@@ -2,8 +2,6 @@ import "./css/Navbar.css"
 import { useState } from "react";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineClose } from 'react-icons/md';
-import logo from "./Images/interface-images/logo.webp"
-
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -32,7 +30,7 @@ function Navbar() {
         <li onClick={() => clickScroll("events")}>Eventos</li>
       </ul>
 
-      <img src={logo} alt="logo" className="logo" />
+      <img src="./interface-images/logo.webp" alt="logo" className="logo" />
 
       <ul className="navbar-list-desktop">
         <li onClick={() => clickScroll("services")}>Servicios</li>

@@ -1,6 +1,5 @@
 import "./css/Contact.css"
 import ContactForm from "./subcomponents/ContactForm"
-import logo from "./Images/interface-images/circle-logo.webp"
 
 function Contact() {
   return (
@@ -13,7 +12,7 @@ function Contact() {
 
       <ContactForm />
 
-      <img src={logo} alt="logo" className="background-logo contact-logo"/>
+      <img src="./interface-images/circle-logo.webp" alt="logo" className="background-logo contact-logo"/>
     </section>
   )
 }

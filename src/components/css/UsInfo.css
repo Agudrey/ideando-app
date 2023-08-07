@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--purple);
-  background: url("../Images/interface-images/us-info-image.webp") no-repeat center top / cover;
+  background: url("./interface-images/us-info-image.webp") no-repeat center top / cover;
   position: relative;
 }
 

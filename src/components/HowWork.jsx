@@ -3,14 +3,11 @@ import { MdOutlineWorkspacePremium } from 'react-icons/md';
 import { FaRegMoneyBillAlt } from 'react-icons/fa';
 import { BiParty } from 'react-icons/bi';
 import { HiOutlineSpeakerphone, HiOutlineBriefcase } from 'react-icons/hi';
-import waveDown from "./Images/interface-images/waveDownG.svg"
-import logo from "./Images/interface-images/circle-logo.webp"
-
 
 function HowWork() {
   return (
     <section className="how-work-container" id="howWork">
-      <img src={logo} alt="logo" className="background-logo up-logo"/>
+      <img src="./interface-images/circle-logo.webp" alt="logo" className="background-logo up-logo"/>
 
       <article className="how-work-info">
         <h3>Cómo Trabajamos</h3>
@@ -60,8 +57,7 @@ function HowWork() {
           </div>
 
 
-      <img src={logo} alt="logo" className="background-logo down-logo"/>
-      {/* <img src={waveDown} alt="wave" id="events"/> */}
+      <img src="./interface-images/circle-logo.webp" alt="logo" className="background-logo down-logo"/>
     </section>
   )
 }
