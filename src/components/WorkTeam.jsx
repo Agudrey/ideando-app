@@ -2,7 +2,7 @@ import "./css/WorkTeam.css"
 
 function WorkTeam() {
   return (
-    <section className="work-team-container" id="workTeam">
+    <section className="work-team-container" id="workTeam" style={{backgroundImage: "url('./interface-images/work-team-image1.webp') no-repeat center top / cover"}}>
       <div className="work-team-background-color"></div>
 
       <article className="work-team-info">

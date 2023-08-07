@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("./interface-images/work-team-image1.webp") no-repeat center top / cover;
+  /* background: url("./interface-images/work-team-image1.webp") no-repeat center top / cover; */
 }
 
 .work-team-background-color{
