@@ -1,13 +1,24 @@
 import "./css/ContactForm.css"
 import { useRef } from "react"
 import emailjs from "@emailjs/browser"
+import Swal from 'sweetalert2'
+
 
 function ContactForm() {
-
   const refForm = useRef();
 
   const cleanInputs = () => {
     refForm.current.reset();
+  }
+
+  const showAlert = () =>{
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Tu evento ha sido enviado',
+      showConfirmButton: false,
+      timer: 1500
+    })
   }
 
   const handleSubmit = (e) =>{
@@ -21,6 +32,7 @@ function ContactForm() {
     emailjs.sendForm(serviceId, templateId, refForm.current, apiKey)
     .catch(error => console.error(error))
     cleanInputs()
+    showAlert()
   }
 
   return (

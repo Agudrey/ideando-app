@@ -105,7 +105,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .card-container{
     justify-content: end;
     gap: 24px;
