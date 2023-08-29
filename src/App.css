@@ -1,3 +1,7 @@
+.App{
+  overflow-x: hidden;
+}
+
 .whatsapp-container, .phone-container{
     height: 10vh;
     width: auto;
