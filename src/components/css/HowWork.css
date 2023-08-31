@@ -17,7 +17,7 @@
   margin-top: 50px;
 }
 
-.how-work-info h3{
+.how-work-title{
   height: 40px;
   width: 100%;
   text-align: center;
@@ -27,9 +27,9 @@
 
 .how-work-info div{
   height: auto;
-  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .how-work-info li{

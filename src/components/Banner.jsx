@@ -1,4 +1,5 @@
 import "./css/Banner.css"
+import Zoom from 'react-reveal/Zoom';
 
 function Banner() {
 
@@ -19,11 +20,21 @@ function Banner() {
 
       <div className="banner_content">
         <div className="banner-text">
-          <h2>CREAMOS EXPERIENCIAS INOVADORAS</h2>
-          <p>Porque en tu evento cada detalle cuenta</p>
+          <h2>
+            <Zoom cascade>  
+              CREAMOS EXPERIENCIAS INOVADORAS
+            </Zoom>          
+          </h2>
+          <p>
+            <Zoom cascade>
+              Porque en tu evento cada detalle cuenta
+            </Zoom>
+          </p>
         </div>
 
-        <button className="banner-button" onClick={() => clickScroll("contact")}>Cotiza tu evento</button>
+        <Zoom>
+          <button className="banner-button" onClick={() => clickScroll("contact")}>Cotiza tu evento</button>
+        </Zoom>
       </div>
     </section>
   )

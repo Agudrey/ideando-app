@@ -37,7 +37,7 @@ function UsInfoExperience() {
             
             <ul className="experience-points">
               {experiencePoints.map((item) =>
-                <li key={item.id}><BsFillPatchCheckFill className="points-icons"/> {item}</li>
+                <li key={item.id}><BsFillPatchCheckFill className="points-icons"/>{item}</li>
               )}
             </ul>
           </div>
