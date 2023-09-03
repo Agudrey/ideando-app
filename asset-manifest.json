@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ideando-app/static/css/main.e247ddc5.css",
-    "main.js": "/ideando-app/static/js/main.a1c4c17d.js",
+    "main.js": "/ideando-app/static/js/main.835650dd.js",
     "index.html": "/ideando-app/index.html",
     "main.e247ddc5.css.map": "/ideando-app/static/css/main.e247ddc5.css.map",
-    "main.a1c4c17d.js.map": "/ideando-app/static/js/main.a1c4c17d.js.map"
+    "main.835650dd.js.map": "/ideando-app/static/js/main.835650dd.js.map"
   },
   "entrypoints": [
     "static/css/main.e247ddc5.css",
-    "static/js/main.a1c4c17d.js"
+    "static/js/main.835650dd.js"
   ]
 }
