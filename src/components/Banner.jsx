@@ -19,18 +19,16 @@ function Banner() {
       <video src="./video_mobile.mp4" className="video video-mobile" loop muted autoPlay></video>
 
       <div className="banner_content">
-        <div className="banner-text">
-          <h2>
-            <Zoom cascade>  
+        <Zoom cascade>  
+          <div className="banner-text">
+            <h2>
               CREAMOS EXPERIENCIAS INOVADORAS
-            </Zoom>          
-          </h2>
-          <p>
-            <Zoom cascade>
+            </h2>
+            <p>
               Porque en tu evento cada detalle cuenta
-            </Zoom>
-          </p>
-        </div>
+            </p>
+          </div>
+        </Zoom> 
 
         <Zoom>
           <button className="banner-button" onClick={() => clickScroll("contact")}>Cotiza tu evento</button>

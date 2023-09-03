@@ -7,7 +7,7 @@ function WorkTeam() {
       <div className="work-team-background-color"></div>
 
       <article className="work-team-info">
-        <Zoom cascade>
+        <Zoom>
           <h3>Equipo</h3>
 
           <p>En Ideando Eventos y Marketing encontraras un equipo profesional y comprometido lleno de ideas innovadoras para realizar su evento con las mejores tendencias actuales del mercado. Evidenciaras que nos preocupamos por el  bienestar tanto de nuestros colaboradores como de nuestros clientes, actuando así competitivamente para brindar un servicio personalizado y auténtico.</p>

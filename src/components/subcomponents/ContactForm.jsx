@@ -36,7 +36,7 @@ function ContactForm() {
   }
 
   return (
-    <Zoom cascade>
+    <Zoom>
       <form className="contact-form" onSubmit={handleSubmit} ref={refForm}>
         <fieldset className="input-form name">
           <label className="symbol-required" for="name">NOMBRE Y APELLIDO:</label>
