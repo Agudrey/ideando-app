@@ -8,11 +8,11 @@ function UsInfo() {
   return (
     <section className="info-container" id="usInfo" style={{backgroundImage: `url('./interface-images/us-info-image.webp')`}}>
       <div className="info-container-background-color"></div>
-      <h1>
-        <Zoom cascade>
-          ¡Creamos el evento perfecto para ti!
-        </Zoom>
-      </h1>
+      <Zoom cascade>
+        <article>
+          <h1>¡Creamos el evento perfecto para ti!</h1>
+        </article>
+      </Zoom>
 
       <UsInfoExperience />
 

@@ -8,8 +8,10 @@ function Events() {
 
       <article className="events-info">
         <Zoom cascade>
-          <h3>Eventos</h3>
-          <p>Conoce los diferentes eventos que podemos planificar para tu Marca o Empresa:</p>
+          <article>
+            <h3>Eventos</h3>
+            <p>Conoce los diferentes eventos que podemos planificar para tu Marca o Empresa:</p>
+          </article>
         </Zoom>
       </article>
 
