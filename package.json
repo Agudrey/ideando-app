@@ -2,7 +2,7 @@
   "name": "ideando-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Agudrey.github.io/ideando-app",
+  "homepage": "https://ideandoeventosymarketing.com/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@splidejs/react-splide": "^0.7.12",
