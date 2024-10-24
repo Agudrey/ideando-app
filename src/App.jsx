@@ -13,6 +13,9 @@ import { BiPhoneCall } from 'react-icons/bi';
 
 
 function App() {
+
+  const phoneNumber = 3002924500 
+
   return (
     <main className="App">
       <Navbar />
@@ -26,15 +29,15 @@ function App() {
       <Footer />
 
       <div className="phone-container">
-        <p className="phone-text">+57 3022464150</p>
-        <a className="phone-button" href="tel:+573022464150" aria-label="Tell us about your event">
+        <p className="phone-text">{`+57 ${phoneNumber}`}</p>
+          <a className="phone-button" href={`tel:+57${phoneNumber}`} aria-label="Tell us about your event">
           <BiPhoneCall />
         </a>
       </div>
 
       <div className="whatsapp-container">
         <p className="whatsapp-text">Chatea con nosotros!</p>
-        <a className="whatsapp-button" href="https://api.whatsapp.com/send?phone=573022464150" aria-label="Tell us about your event">
+        <a className="whatsapp-button" href={`https://api.whatsapp.com/send?phone=57${phoneNumber}`} aria-label="Tell us about your event">
           <BsWhatsapp />
         </a>
       </div>
