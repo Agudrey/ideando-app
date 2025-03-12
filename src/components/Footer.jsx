@@ -18,7 +18,7 @@ function Footer() {
           <li>Bogotá, Colombia</li>
         </ul> 
 
-        <p className="copyright_text_mobile"><FaRegCopyright /> Copyrigth 2023</p>
+        <p className="copyright_text_mobile"><FaRegCopyright /> Copyrigth 2025</p>
       </Zoom>
     </footer>
   )
