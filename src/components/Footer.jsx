@@ -9,7 +9,7 @@ function Footer() {
       <Zoom cascade>
         <div className="links_container">
           <ContactLinks />
-          <p className="copyright_text_desktop"><FaRegCopyright /> Copyrigth 2023</p>
+          <p className="copyright_text_desktop"><FaRegCopyright /> Copyrigth 2025</p>
         </div>
 
         <ul className="footer-contact-container">
