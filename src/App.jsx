@@ -14,7 +14,7 @@ import { BiPhoneCall } from 'react-icons/bi';
 
 function App() {
 
-  const phoneNumber = 3002924500 
+  const phoneNumber = 3004252045 
 
   return (
     <main className="App">
