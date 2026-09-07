@@ -7,14 +7,14 @@ function Contact() {
     <section className="contact-container" id="contact">
       <article className="contact-info">
         <Zoom cascade>
-          <h3>¿Quieres organizar un evento?</h3>
+          <h2>¿Quieres Organizar un Evento en Bogotá?</h2>
           <p>Completa el siguiente formulario y nos pondremos en contacto.</p>
         </Zoom>
       </article>
 
       <ContactForm />
 
-      <img src="./interface-images/circle-logo.webp" alt="logo" className="background-logo contact-logo"/>
+      <img src="./interface-images/circle-logo.webp" alt="" className="background-logo contact-logo" width="500" height="500" aria-hidden="true" />
     </section>
   )
 }

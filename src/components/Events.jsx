@@ -9,7 +9,7 @@ function Events() {
       <article className="events-info">
         <Zoom cascade>
           <article>
-            <h3>Eventos</h3>
+            <h2>Tipos de Eventos que Organizamos en Bogotá</h2>
             <p>Conoce los diferentes eventos que podemos planificar para tu Marca o Empresa:</p>
           </article>
         </Zoom>

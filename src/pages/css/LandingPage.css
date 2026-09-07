@@ -1,0 +1,309 @@
+.landing-page {
+  padding-top: 80px;
+}
+
+.landing-hero {
+  min-height: 45vh;
+  padding: 80px 8vw 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.landing-hero h1 {
+  max-width: 900px;
+  font-size: 48px;
+  line-height: 1.2;
+  font-family: 'League Gothic', sans-serif;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.landing-hero p {
+  max-width: 780px;
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.landing-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px 8vw 0;
+}
+
+.landing-tabs__link {
+  padding: 10px 18px;
+  border-radius: 10px;
+  background-color: #b8ea14;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.landing-tabs__link:hover {
+  transform: scale(1.05);
+}
+
+.landing-tabs__link--active {
+  background-color: #252262;
+  color: white;
+}
+
+.landing-content {
+  padding: 70px 8vw;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.landing-content h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.landing-content > p,
+.landing-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.landing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.landing-card {
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.landing-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #252262;
+}
+
+.landing-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.landing-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.landing-links a {
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: #b8ea14;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.landing-links a:hover {
+  transform: scale(1.05);
+}
+
+.landing-cta {
+  text-align: center;
+  padding: 40px 8vw 80px;
+}
+
+.landing-cta h2 {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.landing-cta p {
+  max-width: 700px;
+  margin: 0 auto 24px;
+  font-size: 18px;
+}
+
+.landing-cta a {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 10px;
+  background-color: #252262;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Accent sections (mobiliario / sonido-luces en Servicios) */
+.landing-content--accent {
+  padding: 40px 8vw;
+  gap: 28px;
+}
+
+.landing-content--accent-first,
+.landing-content--first {
+  padding-top: 40px;
+}
+
+.landing-content--compact {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 24px;
+}
+
+.landing-title--accent {
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 0;
+}
+
+.landing-title--accent::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin: 12px auto 0;
+  border-radius: 2px;
+  background-color: #b8ea14;
+}
+
+.landing-grid--accent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.landing-card--accent {
+  position: relative;
+  flex: 1 1 260px;
+  max-width: 300px;
+  overflow: hidden;
+  padding: 28px 22px 22px;
+  border: 1px solid rgba(37, 34, 98, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.landing-card--accent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+
+.landing-card--accent-green::before {
+  background-color: #b8ea14;
+}
+
+.landing-card--accent-purple::before {
+  background-color: #252262;
+}
+
+.landing-card--accent:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 12px 28px rgba(37, 34, 98, 0.18);
+}
+
+.landing-card__badge {
+  height: 48px;
+  width: 48px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.landing-card--accent-green .landing-card__badge {
+  background: linear-gradient(140deg, #b8ea14 0%, #94ffef 100%);
+  color: #252262;
+}
+
+.landing-card--accent-purple .landing-card__badge {
+  background: linear-gradient(140deg, #252262 0%, #4a4599 100%);
+  color: #b8ea14;
+}
+
+.landing-card__icon {
+  height: 24px;
+  width: 24px;
+}
+
+.landing-card--accent h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.landing-card--accent p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-hero {
+    padding: 60px 6vw 40px;
+    min-height: 40vh;
+  }
+
+  .landing-hero h1 {
+    font-size: 36px;
+  }
+
+  .landing-content {
+    padding: 50px 6vw;
+  }
+
+  .landing-tabs {
+    padding: 20px 6vw 0;
+    gap: 10px;
+  }
+
+  .landing-tabs__link {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  .landing-content--accent {
+    padding: 32px 6vw;
+  }
+
+  .landing-content--accent-first,
+  .landing-content--first {
+    padding-top: 28px;
+  }
+
+  .landing-content--compact {
+    padding: 32px 6vw;
+  }
+}

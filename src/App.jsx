@@ -1,47 +1,57 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import UsInfo from './components/UsInfo';
-import Banner from './components/Banner';
-import HowWork from './components/HowWork';
-import Events from './components/Events';
-import Services from './components/Services';
-import WorkTeam from './components/WorkTeam';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import { BsWhatsapp } from 'react-icons/bs';
-import { BiPhoneCall } from 'react-icons/bi';
-
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import HomePage from './pages/HomePage';
+import OrganizacionEventosBogota from './pages/OrganizacionEventosBogota';
+import EventosCorporativosBogota from './pages/EventosCorporativosBogota';
+import EventosSocialesCulturalesBogota from './pages/EventosSocialesCulturalesBogota';
+import BrandingActivacionesMarcaBogota from './pages/BrandingActivacionesMarcaBogota';
+import OrganizacionBodasQuinceanosBogota from './pages/OrganizacionBodasQuinceanosBogota';
+import ServiciosParaEventosBogota from './pages/ServiciosParaEventosBogota';
+import AlquilerMobiliarioBogota from './pages/AlquilerMobiliarioBogota';
+import AlquilerSonidoLucesBogota from './pages/AlquilerSonidoLucesBogota';
+import CateringRefrigeriosBogota from './pages/CateringRefrigeriosBogota';
+import CoffeeBreakBogota from './pages/CoffeeBreakBogota';
+import LogisticaProduccionEventosBogota from './pages/LogisticaProduccionEventosBogota';
 
 function App() {
-
-  const phoneNumber = 3004252045 
-
   return (
-    <main className="App">
-      <Navbar />
-      <Banner />
-      <UsInfo />
-      <HowWork />
-      <Events />
-      <Services />
-      <WorkTeam />
-      <Contact />
-      <Footer />
-
-      <div className="phone-container">
-        <p className="phone-text">{`+57 ${phoneNumber}`}</p>
-          <a className="phone-button" href={`tel:+57${phoneNumber}`} aria-label="Tell us about your event">
-          <BiPhoneCall />
-        </a>
-      </div>
-
-      <div className="whatsapp-container">
-        <p className="whatsapp-text">Chatea con nosotros!</p>
-        <a className="whatsapp-button" href={`https://api.whatsapp.com/send?phone=57${phoneNumber}`} aria-label="Tell us about your event">
-          <BsWhatsapp />
-        </a>
-      </div>
-    </main>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="organizacion-de-eventos-bogota" element={<OrganizacionEventosBogota />} />
+        <Route path="eventos-corporativos-bogota" element={<EventosCorporativosBogota />} />
+        <Route
+          path="eventos-sociales-y-culturales-bogota"
+          element={<EventosSocialesCulturalesBogota />}
+        />
+        <Route
+          path="branding-y-activaciones-de-marca-bogota"
+          element={<BrandingActivacionesMarcaBogota />}
+        />
+        <Route
+          path="organizacion-de-bodas-y-quince-anos-bogota"
+          element={<OrganizacionBodasQuinceanosBogota />}
+        />
+        <Route path="servicios-para-eventos-bogota" element={<ServiciosParaEventosBogota />} />
+        <Route
+          path="alquiler-de-mobiliario-para-eventos-bogota"
+          element={<AlquilerMobiliarioBogota />}
+        />
+        <Route
+          path="alquiler-de-sonido-y-luces-para-eventos-bogota"
+          element={<AlquilerSonidoLucesBogota />}
+        />
+        <Route
+          path="catering-y-refrigerios-para-eventos-bogota"
+          element={<CateringRefrigeriosBogota />}
+        />
+        <Route path="coffee-break-para-eventos-bogota" element={<CoffeeBreakBogota />} />
+        <Route
+          path="logistica-y-produccion-de-eventos-bogota"
+          element={<LogisticaProduccionEventosBogota />}
+        />
+      </Route>
+    </Routes>
   );
 }
 

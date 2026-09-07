@@ -1,15 +1,26 @@
+import { Link } from 'react-router-dom';
 import "./css/Footer.css"
 import ContactLinks from "./subcomponents/ContactLinks"
 import { FaRegCopyright } from 'react-icons/fa';
 import Zoom from 'react-reveal/Zoom';
+import { NAV_PAGES } from '../seo/siteConfig';
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer-container">
       <Zoom cascade>
         <div className="links_container">
           <ContactLinks />
-          <p className="copyright_text_desktop"><FaRegCopyright /> Copyrigth 2025</p>
+          <nav className="footer-pages-nav" aria-label="Páginas de servicios">
+            {NAV_PAGES.map((page) => (
+              <Link key={page.path} to={page.path} className="footer-page-link">
+                {page.label}
+              </Link>
+            ))}
+          </nav>
+          <p className="copyright_text_desktop"><FaRegCopyright /> Copyrigth {currentYear}</p>
         </div>
 
         <ul className="footer-contact-container">
@@ -18,7 +29,7 @@ function Footer() {
           <li>Bogotá, Colombia</li>
         </ul> 
 
-        <p className="copyright_text_mobile"><FaRegCopyright /> Copyrigth 2025</p>
+        <p className="copyright_text_mobile"><FaRegCopyright /> Copyrigth {currentYear}</p>
       </Zoom>
     </footer>
   )

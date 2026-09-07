@@ -14,16 +14,34 @@ function Banner() {
 
   return (
     <section className='video-container'>
-      <video src="./video_desktop.mp4" className="video video-desktop" loop muted autoPlay></video>
+      <video
+        src="./video_desktop.mp4"
+        className="video video-desktop"
+        loop
+        muted
+        autoPlay
+        playsInline
+        preload="metadata"
+        poster="./interface-images/hero-poster.webp"
+      ></video>
 
-      <video src="./video_mobile.mp4" className="video video-mobile" loop muted autoPlay></video>
+      <video
+        src="./video_mobile.mp4"
+        className="video video-mobile"
+        loop
+        muted
+        autoPlay
+        playsInline
+        preload="metadata"
+        poster="./interface-images/hero-poster.webp"
+      ></video>
 
       <div className="banner_content">
         <Zoom cascade>  
           <div className="banner-text">
-            <h2>
-              CREAMOS EXPERIENCIAS INOVADORAS
-            </h2>
+            <h1>
+              Organización de Eventos en Bogotá
+            </h1>
             <p>
               Porque en tu evento cada detalle cuenta
             </p>

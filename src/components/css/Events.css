@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 90px 0px 0px 10px;
+  padding: 40px 0px 0px 10px;
   /* background-color: #B8EA14; */
 }
 
@@ -16,7 +16,7 @@
   flex-direction: column;
 }
 
-.events-info h3{
+.events-info h2{
   height: 40px;
   width: 100%;
   text-align: center;

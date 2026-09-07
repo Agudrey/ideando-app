@@ -4,19 +4,18 @@ import { FaRegMoneyBillAlt } from 'react-icons/fa';
 import { BiParty } from 'react-icons/bi';
 import { HiOutlineSpeakerphone, HiOutlineBriefcase } from 'react-icons/hi';
 import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Fade';
 
 function HowWork() {
   return (
     <section className="how-work-container" id="howWork">
-      <img src="./interface-images/circle-logo.webp" alt="logo" className="background-logo up-logo"/>
+      <img src="./interface-images/circle-logo.webp" alt="" className="background-logo up-logo" width="500" height="500" aria-hidden="true" />
 
       <article className="how-work-info">
-        <h3 className="how-work-title">
+        <h2 className="how-work-title">
           <Zoom cascade>
             Cómo Trabajamos
           </Zoom>
-        </h3>
+        </h2>
 
         <Zoom cascade>
           <ul>
@@ -51,21 +50,21 @@ function HowWork() {
       <Zoom cascade>
         <div className="how-work-cards-container">
           <div className="how-work-cards">
-            <h5>Objetivo definido</h5>
+            <h3>Objetivo definido</h3>
             <p>Nos encargamos de planificar, gestionar y controlar para que el evento alcance su propósito.</p>
           </div>
           <div className="how-work-cards">
-            <h5>Presupuesto controlado</h5>
+            <h3>Presupuesto controlado</h3>
             <p>Nuestra gran oferta de servicios nos permite ajustarnos al presupuesto designado por tu empresa.</p>
           </div>
           <div className="how-work-cards">
-            <h5>Espacio adecuado</h5>
+            <h3>Espacio adecuado</h3>
             <p>Cada evento es único y por ello es importante encontrar el lugar apropiado para tu evento.</p>
           </div>
         </div>
       </Zoom>
 
-      <img src="./interface-images/circle-logo.webp" alt="logo" className="background-logo down-logo"/>
+      <img src="./interface-images/circle-logo.webp" alt="" className="background-logo down-logo" width="500" height="500" aria-hidden="true" />
     </section>
   )
 }

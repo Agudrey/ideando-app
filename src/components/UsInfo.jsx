@@ -10,7 +10,7 @@ function UsInfo() {
       <div className="info-container-background-color"></div>
       <Zoom cascade>
         <article>
-          <h1>¡Creamos el evento perfecto para ti!</h1>
+          <h2>¡Creamos el evento perfecto para ti!</h2>
         </article>
       </Zoom>
 

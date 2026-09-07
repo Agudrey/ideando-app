@@ -71,4 +71,10 @@ export const EventsItems = [
     name: 'Coctel Empresarial',
     description: 'Sabemos que es un acontecimiento muy importante a celebrar o dar a conocer, por eso queremos que los asistentes experimenten la calidad de nuestros servicios como lo es, el catering, el personal y la producción audiovisual sin perder el objetivo de la creación del espacio planeado pora la empresa.'  
   },
+  {
+    id: 13,
+    image: "./images-events/Eventos-Sociales.webp",
+    name: 'Eventos Sociales',
+    description: 'Nos encargamos de planificar y ejecutar eventos sociales que fortalezcan los lazos familiares, de amistad y comunidad a través de experiencias memorables. Ya sea una celebración íntima o una gran reunión, cuidamos cada detalle de la decoración, el montaje y la producción para que la ocasión se disfrute sin preocupaciones.'  
+  },
 ]
